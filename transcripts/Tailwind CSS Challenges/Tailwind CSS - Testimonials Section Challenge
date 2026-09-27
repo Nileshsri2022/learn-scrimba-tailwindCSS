@@ -1,0 +1,30 @@
+
+Transcript
+0:00
+A testimonial section is something you often see on websites, and in this challenge we'll be creating one for a catteries website.
+0:08
+First, let's have a look at the mobile mockups.
+0:11
+Since the mobile mockup is quite tall, I've split the mockups so you can see the top, some of the testimonials, and the bottom.
+0:19
+The page has a pink background with white testimonial cards featuring a light pink border.
+0:24
+The header has a two toned heading, and all the testimonial cards are flanked by a paw print at the top and at the bottom.
+0:32
+Each testimonial card features an image with rounded corners, the names of the cat or cat, the owner's name, and their words of praise.
+0:42
+In the desktop mockup, we can see the three testimonial cards positioned side by side, and the images are more transparent.
+0:49
+But we still have the two toned heading and the paw prints framing the testimonials from above and below.
+0:56
+Lastly, let's check out the hover effects.
+0:58
+When a user hovers over the card, it should drop a shadow to give that interactive feel.
+1:04
+Then when hovering over the image itself, the image should become fully opaque.
+1:09
+Don't forget, the cursor should retain its default arrow during both hover states.
+1:14
+In the HTML provided, you have everything you need to get started, with the sections laid out and the images, names, and testimonials ready to be styled.
+1:23
+So give it a go, and I'll walk you through how I would approach it in the next scrim.
