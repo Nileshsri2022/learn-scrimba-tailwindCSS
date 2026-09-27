@@ -1,0 +1,46 @@
+
+Transcript
+0:00
+Now that we've covered some more essential skills like flexbox and borders, it's time to put them to use and give our blog a bit more structure and style.
+0:08
+You'll be handling a few key tasks in the scrum.
+0:12
+First, handle the layout of the card contents.
+0:15
+Next, round the corners of the blog preview card.
+0:19
+Then change the border style of the header and footer, and you might not be able to see it, but there is a very faint line at the bottom and at the top of the header and footer.
+0:29
+And finally, style the newsletter sign up form, which is this stuff down here.
+0:34
+These tasks will continue to bring everything together and let us make use of the concepts that we've just learned.
+0:40
+So give it a go, and when you're ready, I'll show you how I approached it.
+0:45
+Welcome back.
+0:46
+Here's what I did.
+0:47
+So first, I handled the layout of the card contents.
+0:51
+Over here in the card section, I first rounded the corners of the author photo.
+0:57
+So down here in the image I did rounded full then this section that contains all the author information I gave it flex items center which should put them in a row then I gave the author name some left margin using margin left two to separate it from the author photo then in this section which contains the author information and the more icon I added a flex box item center to make sure that they are horizontally center and then justify between to push them apart and then down here in the cards footer over here I gave it flex items center justify between just to push them apart as well and then heading back up to the card content section I made it all flexbox so everything in the card contents is a flex child.
+1:57
+Make them all in a column and then gave it all a generous gap.
+2:01
+Let's have a quick look, and the card contents are looking quite close to the mock up.
+2:06
+Next, I rounded the corners of the blog preview card.
+2:09
+Back here in the card section element, I rounded corners with rounded large.
+2:15
+Now if we have a quick look, we can see the card is rounded, but the image itself still has sharp corners, so we'll have to round the image as well.
+2:25
+So over here in the image tag we'll give it rounded top large because we only want to target the top.
+2:33
+And then I changed the border style of the header and footer.
+2:36
+Like I said before it is quite slight but there is an extra small line at the bottom edge and the top edge of the header and footer and this can be achieved using a double border style.
+2:48
+So up here in the hea
