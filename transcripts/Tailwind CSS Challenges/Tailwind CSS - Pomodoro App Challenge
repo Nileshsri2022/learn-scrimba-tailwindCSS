@@ -1,0 +1,35 @@
+Transcript
+0:00
+Welcome to the Tailwind CSS Pomodoro app challenge.
+0:04
+If you're not familiar with the Pomodoro technique, it's a popular time management method where you break work into intervals, usually twenty five to forty five minutes of focus, followed by breaks.
+0:15
+For this challenge, you'll be designing a simple layout for a Pomodoro app.
+0:19
+On the left, you'll see a mobile mock up, and on the right, there's a desktop version.
+0:24
+The design has a gray background and a white section with a red bottom border.
+0:29
+At the top of the section, we have a motivational message.
+0:33
+In the center, the timer is displayed in the largest font.
+0:36
+And at the bottom, there are three buttons that control the timer.
+0:40
+Now since we're only working with Tailwind CSS, these buttons won't actually function, but we'll make sure they look great within the layout.
+0:48
+As you'll notice, the desktop mockup features slightly larger elements and a bit more padding compared to the mobile version, giving it a more spacious feel.
+0:57
+Here we have the hover effects for the buttons.
+1:00
+When a user hovers over each button, the button in question should turn red and the cursor should change to a pointer.
+1:08
+In the provided HTML, you'll find all the elements you need ready to go: the motivational message, the timer, and the three buttons.
+1:17
+Everything is already in sections, so you shouldn't have to modify the HTML unless you want to.
+1:23
+So have at it!
+1:24
+Let's see how you can bring this Pomodoro app to life using Tailwind CSS.
+1:29
+In the next scrim, I'll show you one possible solution.
