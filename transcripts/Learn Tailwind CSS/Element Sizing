@@ -1,0 +1,90 @@
+
+Transcript
+0:00
+In this scrim, we'll be diving into element sizing and exploring how Tailwind uses a unique numbering system to make controlling sizes simple and efficient.
+0:10
+In Tailwind, you'll control both the width and height of your HTML elements using these two classes: w dash value and h dash value, where value is something you'll input in order to size your element.
+0:25
+Tailwind provides us with predefined sizes to choose from, which makes scaling things super easy.
+0:32
+These predefined sizes can be split into three categories: Fixed units, percentage units, and viewport units.
+0:40
+Fixed units make use of Tailwind's numbering system.
+0:44
+Instead of using arbitrary pixel values, Tailwind simplifies things with a consistent and intuitive scale.
+0:51
+In Tailwind CSS, one unit is equal to zero point two five rem, And if a browser uses default settings, zero point two five rem will equal four pixels.
+1:02
+So four Tailwind units would be equal to one rem.
+1:06
+By targeting the rem unit via Tailwind's numbering system, we can make sure our designs adapt to a user's browser preferences, like zoom levels or custom browser font sizes, ensuring accessibility without sacrificing consistency.
+1:22
+This table shows only some of the classes that come packaged with Tailwind.
+1:27
+Check out everything that's on offer by clicking through to the documentation using the links in the slide.
+1:33
+Do note that, across the board, if we use a class that Tailwind doesn't offer, the styling won't work, so be sure to have the docs handy.
+1:43
+Here in the editor, we have three section elements to play around with.
+1:47
+For the purpose of making sure your learning journey is visually appealing, I've added some styles using an external stylesheet.
+1:55
+Let's add some Tailwind utility classes to our first section element.
+2:00
+We'll open the class list and I'm going to give it a width of sixty four units and a height of thirty two units.
+2:06
+When we save this, our element will now have a fixed width of sixteen rem and a fixed height of eight rem.
+2:14
+Give it a go yourself and play around with the height and width of this first section element.
+2:21
+Now onto relative and viewport units.
+2:24
+Unlike fixed units, these two scale according to the parent element or the viewport.
+2:29
+Tailwind makes it easy to set an element to a fraction of its parent container with classes like w half or h half.
+2:38
+These are equivalent to width fifty percent or height fifty percent in CSS.
+2:43
+We can take this fraction concept to even more complicated fractions like three fifths or even seven twelfths.
+2:52
+You've likely used some of these denominators in CSS for granular control over layout widths.
+2:59
+We can also make a container the full width or full height of its parent container using 'wFull' or 'hFull'.
+3:07
+Keep in mind that these are just some examples of the classes that Tailwind offers, so be sure to click through to the documentation to check out the full list.
+3:16
+And lastly, we have viewport units, which come in handy for full width or full height designs.
+3:22
+Don't get these confused with w full or h full, while the relative units look at the size of an element's direct parent.
+3:30
+Viewport units only care about the size of the window or the viewport.
+3:35
+The wScreen class sets the element's width to match the entire viewport width, while hScreen does the same for height.
+3:44
+Let's play around with the remaining two section elements.
+3:48
+I've left you some challenges to chew on.
+3:51
+First, make this first section one hundred percent of the viewport's height.
+3:55
+Then make this section a third of the height of the parent container and half of the width of the parent container.
+4:02
+Give it a go.
+4:04
+Here's what I did.
+4:06
+First, I opened the classlist, and for our first section I gave it 'h', full.
+4:12
+And then for our second section I gave it two classes 'h', 'third' and 'w', 'half' now when we adjust the size of this window we can see that the first section's size stays the same but the second and third will change according to window size.
+4:30
+Let's scroll down to the second section.
+4:32
+We can see that this takes up exactly the same height as the window.
+4:36
+Now let's scroll down to the third section.
+4:39
+If we adjust the window now, we can see that it takes up half of the parent container width and a third of the parent container height.
+4:48
+Now that we've had a look at sizing, it's time to add some life to our elements.
+4:52
+In the next scrim, we'll dive into Tailwind's powerful color system.
