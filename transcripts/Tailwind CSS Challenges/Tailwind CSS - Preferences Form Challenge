@@ -1,0 +1,34 @@
+
+Transcript
+0:00
+For this challenge, we'll be designing a preference form for a subscription box service that delivers tea.
+0:07
+This kind of form is a UX pattern you might come across in any subscription based business, so it's a valuable layout to master.
+0:15
+The design uses muted, tea inspired colors to reflect the company's product.
+0:20
+The background is a light brown, and the text throughout is in shades of brown and black, with dark brown icons strategically placed to enhance the design.
+0:31
+At the top, we've got the name of the box followed by a heading.
+0:35
+Throughout the form, we have some fields that feature a light brown border.
+0:40
+In the mobile mockup, all elements are stacked vertically, making the best use of space on smaller screens.
+0:47
+In the desktop mockup, the form adopts a two column layout to take advantage of the wider screen, giving the form a more structured and spacious appearance.
+0:56
+In the States mockup, you'll notice a few key interactions.
+1:01
+When any text related form field is selected or focused, the background changes to a very light yellow to indicate that it's active.
+1:09
+For the delivery address and payment method sections, hovering over them will change their background to match the text fields.
+1:17
+When hovering over the change address or change payment method anchors our cursor changes to a pointer and finally when the save button is hovered over it becomes darker and the cursor changes to a pointer as well Depending on how you approach it, this challenge may require some Tailwind classes that we didn't cover in the Learn Tailwind CSS course.
+1:40
+So check out Flexbox order and negative positioning values in the documentation.
+1:46
+The HTML has already been provided for you, with the form fields, icons, and structures all in one place.
+1:52
+All that's left for you is to style it with Tailwind CSS and bring this subscription form to life.
+1:59
+Give it a go, and I'll show you my solution in the next scrim.
