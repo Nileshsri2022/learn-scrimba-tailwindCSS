@@ -1,0 +1,128 @@
+
+Transcript
+0:00
+Let's walk through one possible solution for the four zero four page layout challenge.
+0:06
+I started with the header since that's at the top of the page.
+0:09
+It has a dark green background, white text, and some padding.
+0:14
+Moving down to the SVG, I changed its fill color and limited its width with fill white and width seventy two.
+0:23
+Coming down here to the button, this itself doesn't need styling but the SVG within it does.
+0:30
+And I just gave it 'fill yellow three hundred'.
+0:34
+At the moment for mobile view we don't actually need to see any of these navigation links so for now we're going to hide them and we'll use the hidden display class now to get the logo and the hamburger icon on the same line I used flexbox back up here in the header I added flex and justify between
+0:59
+Now they will always take up the far left and far right no matter what the size of the window.
+1:05
+Moving down here to the main section where all of our content lives.
+1:08
+Everything is centered and stacked, so I used my favorite combo here, flex, flex col, and items center.
+1:17
+And then I centered the text with text center and gave everything a padding with p eight.
+1:23
+Now onto the actual content.
+1:25
+Our four zero four text is super large, green, and bold.
+1:29
+So just a few classes here.
+1:32
+Text 9XL, Text Green eight hundred, and Font Bold.
+1:38
+Our oops line is significantly smaller and a lighter shade of green so we used text xl text green seven hundred and on to our first paragraph tag I just made this a little bit smaller compared to the h2 by using text lg and finally the only additional styling we need for this section is the head back to our home page link it's green and underlined so in the anchor tag I did text green eight hundred underline
+2:17
+now that all the text is styled up I spaced everything out nicely with some gap to the main section with my favorite gap four and that does it for the main section on to the footer which arguably has the most elements first and as always I started with the background color text color and padding Background teal nine fifty, text white and p eight.
+2:43
+Everything is once again stacked and centered in the mock up.
+2:47
+Flex, flex col, items center and text center.
+2:53
+Down to the social icons.
+2:55
+These are to be in a row, so of course I made it a flexbox.
+2:59
+Each icon is around six units high and bright yellow, so I added those classes into each SVG.
+3:07
+Class height six and fill yellow three hundred then to give them some space I used my favorite gap in the containing section element
+3:20
+Moving down to the newsletter form, I started with the tagline.
+3:24
+It's large, bold, and uppercase.
+3:27
+So I used TextXL, font bold, and uppercase.
+3:33
+And for the form itself, everything is stacked and centered, so of course you know I used flex and flex col.
+3:40
+Then I pushed it away from the tagline above with margin top two.
+3:45
+For the text field, I gave it some generous padding, py two and px three.
+3:50
+And then I gave it some rounded corners with rounded.
+3:53
+And as for the button, we know that it is fully round, yellow,
+4:01
+and features large, green,
+4:06
+bold text with some padding.
+4:09
+And I pushed it away from the text field with some top margin.
+4:14
+Let's have a quick look and everything is shaping up quite nicely.
+4:18
+So down to the quick links.
+4:20
+There are only four of them and they're center aligned and stacked.
+4:23
+And we all know what that means: flex, flex col, and text center.
+4:29
+And to make sure each link is yellow and underlined each one of our anchor tags gets text yellow three hundred and underline the company details are also simple the only thing that needs styling is the email which should look exactly the same as our quick links so I'm just going to copy and paste and then of course our copyright notice which is a lightish gray so I'm simply going to give it text gray four hundred and here's our footer so far and of course everything is very very squished together so we just have to space everything out with my favorite flexbox class gap so back up at the top of the footer I gave it gap six so everyone has some room to breathe now for the desktop view starting with the header first things first the hamburger icon has to go and be replaced by the navigation items so back up here in the header I added a class to our button element and I did large hidden and then we'll come down here to the nav and do the opposite we'll do large flex of course we'll check it out
+5:47
+now I want these links to be vertically centered in the container so I'm going to add items center, and then space everything with gap four.
+5:59
+There we go.
+6:00
+And just a note, these classes don't need the large prefix because it will all be hidden on smaller screens anyway.
+6:07
+Onto the navigation items themselves.
+6:09
+They're already white, so they just need to be bolded.
+6:12
+So let's select them all.
+6:14
+New font, bold.
+6:17
+And for the call to action item at the end, I gave it a yellow background, green text
+6:25
+padding and fully rounded corners
+6:30
+and there it is onto the footer here we'll have to put the newsletter quick links and company details in one row but leave the social links and the copyright notice to their own rows so it's time for some flexbox let's come down here to the footer first I added large flex row large flex wrap and large justify center to the footer and then I gave our social icons and our copyright noticed lg width full so they retain their full width and then also lg justifies center to keep them in the center when we have a look now we can see that the form is growing to fit the space so let's give it a fixed width over here in the newsletter we'll give it large width ninety six and that's looking much closer now our quick links and our company details should be left aligned at at this size, so we'll add that class to both of those sections.
+7:37
+Quick links, l g text left, and company details, l g text left.
+7:47
+Then I aligned all three of these elements to the top by adding to the footer large items start.
+7:58
+And there it is all aligned to the top like it does in the mock up then I fine tuned a little bit by changing out the gap for larger screens gap ten
+8:10
+and lastly we'll work on the hover states These should be pretty easy.
+8:14
+Everything that has a hover state goes a lighter shade of yellow from the original state and the cursor changes to a pointer.
+8:21
+We'll start with the call to action in the header.
+8:24
+Hover background yellow three hundred, cursor pointer.
+8:31
+And then we'll do the same for the subscribe button in the footer.
+8:36
+Hover, background yellow three hundred cursor pointer and then our three SVG icons
+8:47
+hover fill yellow two hundred and of course cursor pointer and then finally the links in the footer.
+8:56
+For each one of these, hover text yellow two hundred and cursor pointer.
+9:04
+And let's not forget our email hover text yellow two hundred cursor pointer let's check it out all of our hover states are working and that one is as well and that's it great job on finishing the four zero four page layout challenge This was, as always, just my take on it, and your approach might be totally different, and that's awesome.
+9:28
+Remember, there are always multiple ways to achieve a design with Tailwind CSS.
+9:32
+So keep experimenting and refining your style.
