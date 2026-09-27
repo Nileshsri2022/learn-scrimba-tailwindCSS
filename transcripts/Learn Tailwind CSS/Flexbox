@@ -1,0 +1,121 @@
+Transcript
+0:00
+You may have noticed that I didn't mention flex as a display property in the last scrim, even though it's one of the more commonly used properties.
+0:09
+And that's because Flexbox gets its own scrim.
+0:12
+Now, I'm going to assume that you're already familiar with how Flexbox works, and we're going to focus on how to use Tailwind to apply Flexbox properties quickly and efficiently.
+0:24
+To make any element a flex container, simply add the 'flex' class to it, just like you would any other display class.
+0:31
+Next up is how we set the flex direction.
+0:35
+We simply need to use the 'flex' prefix followed by a dash and a direction, which are listed here.
+0:41
+If you've used Flexbox a lot in the past, these will feel quite familiar to you.
+0:47
+Next up is justify content, something I have no doubt Flexbox enthusiasts use all the time to control how items are spaced along the main axis.
+0:56
+We simply have to use the 'justify' prefix, followed by the dash, followed by whatever value we want from this list.
+1:04
+To control alignment along the cross axis, we can use the 'items' prefix followed by one of the five corresponding values.
+1:12
+As you can see, the value we would provide here is almost exactly the same as the value we'd use with the 'align dash items' property.
+1:21
+'gap' is one of my favourite features of Flexbox, as it lets us create spacing between flex children without relying on margins and padding.
+1:29
+The syntax here is straightforward.
+1:31
+Start with a gap prefix, followed by a dash, and then a tailwind unit value.
+1:36
+This will apply to spacing between all flex children.
+1:39
+But if you want to target gaps only along the y or x axis, you can simply add x or y surrounded by dashes.
+1:48
+And speaking of super simple Tailwind classes, we can't get more simple than Tailwind's solution for flex grow.
+1:54
+To have a flex child grow to fit the space, the class is just 'grow'.
+1:59
+And the opposite is simply 'grow dash zero'.
+2:03
+Finally, let's have a look at flex wrap, which controls where the flex children should wrap within their container.
+2:09
+The class syntax is simple.
+2:11
+Use the flex prefix, followed by the dash, followed by the exact same value that you're already familiar with.
+2:18
+And just like with typography, there's so much more you can do with Flexbox than we have time to cover in this course.
+2:25
+If you can do it with vanilla Flexbox, Tailwind likely has a utility class for it.
+2:30
+Be sure to check out Tailwind's documentation to explore all the possibilities.
+2:35
+To test our Flexbox skills, we're going to put together a cafe's coffee menu.
+2:40
+It should feature three types of coffee at three different price points.
+2:44
+Then, it should list a bunch of extras that customers can add to their coffee, like this.
+2:50
+This scrim already contains all the text content we'll need for the coffee menu.
+2:54
+I've also already set the background and text colors, as well as center the text and make it of a mono font family.
+3:01
+Your challenge is to style the rest of the page using the classes you've learnt so it looks more like the mock up.
+3:08
+Give it a go now and I'll show you how I'll go about it when you're back.
+3:14
+Welcome back.
+3:15
+This is what I did to the HTML to match the mock up.
+3:18
+First, I worked on the positioning and placement of the menu itself.
+3:22
+I would like it to sit in the middle of the viewport.
+3:25
+So I'll be making the body a flex box and then aligning and justifying its child, the main element.
+3:31
+I did this by adding the following classes to the body class list.
+3:35
+H screen, flex, items center, and justify center.
+3:42
+To handle the spacing of the menu, I added some padding, p ten, to the main element and gave it a width of five over six.
+3:52
+And this is what it looks like so far.
+3:54
+Onto the content itself.
+3:56
+I want everything to be centered vertically, especially this icon, so I'll do that with a flex box column.
+4:03
+Still in the main container, I added flex, flex col, and items center.
+4:09
+The extra handy thing here is that I can now also use gap, so I added gap six.
+4:15
+If we check it out now, we can see that it's definitely starting to take shape.
+4:20
+Now it's time for the three price points for each coffee.
+4:23
+I want them to sit side by side, so it sounds like a job for flexbox.
+4:28
+Here, I found the three sections that contained the three price points, and I added a class list to each.
+4:35
+First, flex, which will default to flex row.
+4:38
+And then I added some generous gap with gap eight.
+4:41
+And it looks like what we want.
+4:44
+Next, I want each of these extras to sit next to each other and wrap if needed, so we're gonna use more flex box.
+4:51
+Down here in this section element that contains all of our extras, I made it a flex box and then made sure that the children wrapped by using flex wrap.
+5:03
+Almost there, but not quite.
+5:04
+The next step is to add some gap, but only on the left and right of each extra.
+5:10
+So back in this section, I gave it a class of gap x six, and then I centered the cluster of extras vertically by adding justify center.
+5:20
+And we're almost there now it looks like we just have to handle the sizes of our titles coming all the way to the top for this h one I made it large and bold with text four x l font bold and then for each coffee which I will select like so I added two classes text xl and margin bottom one and there we go I hope you had fun experimenting with the different ways this can be achieved.
+5:52
+Tailwind makes working with Flexbox a breeze, allowing us to apply familiar concepts directly through utility classes.
+5:59
+In the next scrim, we'll dive into borders, learning how to add customized borders around our elements.
