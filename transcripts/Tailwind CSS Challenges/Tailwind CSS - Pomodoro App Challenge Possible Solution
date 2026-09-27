@@ -1,0 +1,74 @@
+
+Transcript
+0:00
+Let's walk through one possible solution for our Pomodoro app challenge.
+0:05
+I like working from the top of the HTML to the bottom, so I started with giving the body some color and arranging its children.
+0:12
+The color is super easy.
+0:14
+Background, gray, two hundred.
+0:17
+Now the body needs to hold the main child in the horizontal and vertical middle of the viewport.
+0:23
+So I made the height and width the same as the viewport with H Screen and W Screen, and then used flexbox to center the only child in the middle of both axes flex items center justify center next I handled the main element I made it a flexbox so I can easily control the layout of its children.
+0:46
+And since I want everything to stack in a column, I gave it flex col.
+0:50
+To make sure everything was center aligned down the middle, I then added items center.
+0:56
+I then handled the way the box looked by adding a white background, rounded corners, set a bottom border and then gave it a red color.
+1:08
+Now that I can see the boundary of the element, I was able to then size it.
+1:13
+I did this with width of four over five and a padding of four.
+1:18
+Since all the text within the card has a mono font family, red coloring, and is bold, I also added font mono, text red six hundred, and font bold to this parent container so it applies to all of its children.
+1:33
+And finally, I dropped a shadow as per the mockup with shadow medium.
+1:39
+Then I moved on to the text content, starting with a h two.
+1:44
+It's relatively large, so I gave it a class of text to x l.
+1:49
+And then a similar thing with a h1 but something much bigger like Text7XL.
+1:58
+Moving on to the SVGs.
+1:59
+I knew that all three of them should behave the same way so I worked with them at the same time by selecting multiple lines in the editor, like so.
+2:08
+First, the mockup has them at a dark gray rather than this black.
+2:12
+So the first class I gave them was 'fill gray five hundred'.
+2:17
+Then according to the state markup, the buttons should turn red on hover.
+2:21
+So I added hover fill red five hundred.
+2:25
+Then to make the cursor a pointer on hover, I simply added cursor
+2:31
+pointer'.
+2:32
+Everything is basically in place now, but I want to space these elements out a bit.
+2:37
+So back in the main container, I added some gap with gap four.
+2:42
+Now we may look done but we can't forget about the desktop screens.
+2:47
+First, I didn't want the main element to keep scaling to four over five of the parent width at larger screens.
+2:53
+So I capped it with SM for small and then width ninety six then I wanted the text elements to be bigger so I added to each one small text three xl which is just one bigger and then also small text eight x l, which again is just a little bit bigger.
+3:13
+And there we go.
+3:15
+We have a Pomodoro app that looks quite close to the original mock ups.
+3:20
+Great job on completing this challenge.
+3:23
+Remember, this is just my solution.
+3:25
+You may have come up with a completely different approach, and that's the beauty of working with Tailwind CSS.
+3:31
+So keep experimenting and finding out what works best for you.
+3:35
+And I'll see you in the next challenge.
