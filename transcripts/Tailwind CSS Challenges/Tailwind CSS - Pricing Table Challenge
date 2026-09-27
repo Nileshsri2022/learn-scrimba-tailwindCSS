@@ -1,0 +1,32 @@
+
+Transcript
+0:00
+For this challenge, we'll be designing a pricing table for a high end terminal slash command prompt software called TerminalLux.
+0:08
+Pricing tables are a pattern you will encounter when working on websites that are selling a product or service, and will give this one a sleek, luxurious style.
+0:17
+The design features a black background with neon blue and white text, mimicking the traditional terminal or command prompt.
+0:25
+At the top, we have the software name, a tagline, and a description.
+0:30
+Each card includes the tier name, cost, a short description and a buy now button.
+0:36
+To add a bit of flair, there are sparkle icons before and after the pricing section to really highlight the luxe feel of Terminal Luxe.
+0:45
+In the mobile mockup, all elements are stacked vertically.
+0:49
+The header sits on top, followed by the pricing cards, each one beneath the other, and the sparkle icons on either side of the pricing.
+0:57
+In the desktop mockup, the three pricing tiers are placed side by side, but we still have the sparkle icons before and after, bringing the whole look together.
+1:07
+In the state mockup, we can see that there are hover effects on the Buy Now buttons.
+1:12
+When a user hovers over a button, it should change to a neon blue background that matches the rest of the design.
+1:19
+The cursor should change to a pointer as well.
+1:22
+In the HTML provided, you'll find all the necessary elements for the header, pricing tiers, and buttons ready to be styled.
+1:30
+The structure is all set, so you can focus on bringing the design to life with Tailwind CSS.
+1:36
+Give it a go, and I'll show you how I would approach it in the next scrim.
