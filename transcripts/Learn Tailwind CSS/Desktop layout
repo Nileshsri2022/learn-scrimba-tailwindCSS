@@ -1,0 +1,78 @@
+
+Transcript
+0:00
+Now that we've learnt how to work with responsive design with Tailwind, it's time to put that into action.
+0:06
+Here's the desktop mockup that we saw earlier this course.
+0:09
+We couldn't action it before, but we can now.
+0:12
+Let's have a peek at the scrim.
+0:14
+To make life a little easier, I have already created the remaining four cards and populated them with the content provided at the bottom of this scrim.
+0:24
+Your job is just to make the layout scale nicely for larger screens, which it currently doesn't.
+0:30
+When we make the preview window larger, the cards remain in a single column.
+0:34
+Nothing changes with the header, and if we scroll to the footer, the sign up form is way too wide.
+0:41
+So let's fix all of that.
+0:44
+Here are your tasks for this scrim.
+0:46
+For general styling, we want to fix the spacing between cards and we also want to style the card container so cards appear in a row and then wrap.
+0:56
+When screens are larger than mobile we want to style the header accordingly so icon on the left and then navigation on the right and then also style the footer accordingly.
+1:07
+We can see that the form does not in fact take up the entire width of the screen.
+1:12
+For the last time in this project and this course, have at it, and I'll show you what I did when you get back.
+1:20
+Welcome back.
+1:21
+Here's what I did.
+1:23
+First, I fixed the spacing between cards.
+1:25
+I did this by turning this card container section into a flexbox and then using gap.
+1:31
+So I just added flex, gap, eight.
+1:35
+Then I styled the card container so the cards appear in a row and then also wrap.
+1:40
+Now I don't have to specify row because by default a Flexbox displays in a row, but I will specify the wrap.
+1:47
+In the same card container I added flex wrap.
+1:51
+Then I styled the header.
+1:53
+Come up here to the header and I added this to the class list.
+1:57
+So first the small prefix which will apply whatever class I put after it to the page when the viewport is large enough.
+2:05
+So small flex and then small justify between.
+2:09
+And then when we check it out we can see that it becomes a flex box row and then the two elements are pushed to either side of the screen.
+2:21
+Then I headed down to style the footer all the way past these cards to the footer.
+2:27
+We can see from the mock up that the footer content doesn't take up the entire width of the screen or footer, so let's give it a specified width when the screen is small or larger.
+2:38
+So over here in the footer but in the content section I gave it a class list and I added small width of ninety six and then small mx auto so when it is at a small screen size or larger it will be width of ninety six units and then also centered vertically give that a save we'll check it out nice and also nice now you may also have noticed that in certain viewport widths like this one or this one, the layout of the cards don't quite match the mock up, which has them all sitting next to each other.
+3:16
+Now this is because we had given the card auto left and right margins earlier so it sat nicely in the middle of the page.
+3:23
+But we can actually control that better with flexbox now so I went through and deleted all the mx auto classes for the cards I'll speed this up for you
+3:39
+and then up here in the card container section element I just added justify center and mx auto to center the container as well as its contents.
+3:50
+Save now and we can see that it is much closer to the desktop mockup.
+3:56
+And there we have it, our blog project is fully designed from the header all the way down to the footer.
+4:02
+You've applied a variety of Tailwind utilities from flexbox to borders and everything in between, to bring the mock up to life.
+4:10
+It's amazing to see how quickly and efficiently we've been able to build this using just a few well chosen classes.
+4:17
+You've got all the core skills to create dynamic, responsive, and polished designs, and your blog is a great showcase of that.
