@@ -1,0 +1,108 @@
+
+Transcript
+0:00
+Welcome to the main project of this course.
+0:03
+Our client would like us to style their plant enthusiasts' blog using Tailwind CSS.
+0:09
+This will be a great opportunity to apply everything that we've learned so far.
+0:14
+First, let's have a look at our project starter file.
+0:18
+Right now, we've got a plain HTML document with no styles applied.
+0:22
+It's so raw that our preview looks pretty subpar.
+0:26
+It's up to us to make this look fantastic.
+0:29
+You'll notice that I have already imported Tailwind CSS using the CDN, so we're all set to start adding utility classes.
+0:38
+There's also a folder here with all the images that we'll be using throughout the project.
+0:43
+There's a comment up the top with your tasks for this section, and there's another big comment at the bottom that holds all the information we'll need for every blog post.
+0:53
+Right now, we'll just be dealing with one.
+0:56
+Before we begin styling, let's have a look at the client's mock up together.
+1:01
+This is the design that we'll be aiming for for this project.
+1:04
+It includes the header, footer, and multiple blog preview cuts.
+1:09
+These mock ups will be our guide as we apply styling and structure to match the overall look and feel.
+1:16
+We'll start by focusing on the mobile view first, since building for smaller screens ensures our layout is flexible and works well on all devices.
+1:26
+We'll work on the desktop mock up much later.
+1:29
+The HTML file contains all the content needed for our final blog design.
+1:35
+You'll see that I've only included the structure for one blog preview card in the HTML.
+1:40
+Later on, once we're happy with our styles, we'll copy and paste this structure to create the other blog preview cards using the text content provided in the comments at the bottom.
+1:50
+For now, we're going to pull together everything we've learned so far about sizing, colors, padding, and margin, and apply it to style the header and footer of our blog as well as little bits of a preview card.
+2:03
+Do keep in mind though that we haven't covered every concept needed to perfectly match the mock up just yet, so it's okay if our project doesn't look exactly like the client's mock up right now.
+2:15
+Here are your tasks for this scrim.
+2:17
+Handle the header and footer background color and text color.
+2:20
+It looks like both the header and footer have the same background color and the same white text.
+2:25
+Next, handle the header icon slash logo.
+2:29
+It's relatively small and it sits in the center.
+2:32
+Next, set the header and footer padding.
+2:34
+There is a bit of space between the edge of the mockup and the content itself, and we can see this best demonstrated in the footer mockup.
+2:43
+Next, set the width of the card container and the card.
+2:47
+According to the mockup, the container that holds all the blog cards is eleven over twelve of the viewport.
+2:53
+This makes our job super easy.
+2:55
+We'll just use this number right here.
+2:57
+Then make sure to center the container so it sits in the middle of the screen.
+3:02
+And finally, we can start styling the card contents.
+3:05
+For now, we'll just need to set the width of the card, which by the way, is in the mock up.
+3:10
+Give the card content some padding, and make sure the author's image is much smaller than what it is right now.
+3:16
+All of this will be tricky to do without seeing the container's boundaries, so feel free to give the container a background color for now that stands out so you can see what's happening.
+3:27
+So go ahead and try this now.
+3:28
+Once you've given it a go, we'll work through it together.
+3:32
+Now let's walk through how I did it, and you can compare it with your version.
+3:37
+First, I added background slate seven hundred to the header and the footer.
+3:47
+Then I made the text white for both of them with text white
+3:52
+text white for the header icon I found that the width of ten units worked best to make it fit nicely so over here in the SVG I added width ten I then centered it by adding mx auto then I used p dash four to add padding on all sides on both the header and the footer So back here, I did p dash four, and in the footer, p dash four.
+4:22
+And to the card container section element, which is right here, I added the following classes, width eleven over twelve, and m x auto to set its width and also center it vertically.
+4:37
+To style the contents of the card, I added a light gray background just to see what I'm doing.
+4:42
+So over here in card,
+4:46
+I gave it a background of slate one hundred just for now and w eighty for the twenty rem width and then m x auto in order to center the card.
+4:58
+If we take a peek now everything is coming into place nicely.
+5:02
+Next I made the author photo a lot smaller by giving it a width over here, class width of eight, and popping back up here to the card content section I gave the content section which by the way is everything not including the image some padding say class p four let's have a look Now the content isn't looking too much like the mock up at the moment, but we'll be back once we've learned a little more.
+5:30
+We're going to jump back to our learning scrims to pick up a few more essential skills.
+5:35
+Next up, we'll look at how to work with typography using Tailwind CSS.
+5:39
+I'll see you in the next scrim.
