@@ -1,0 +1,60 @@
+
+Transcript
+0:00
+Hello, everyone.
+0:01
+My name is Rachel, and I'm a lifelong learner.
+0:04
+In this course, I'm excited to be introducing you to the basics of Tailwind CSS.
+0:10
+We'll be going over some fundamental concepts for you to start using Tailwind CSS, and we'll also build a fun project along the way.
+0:19
+Here's what you can expect to learn within this course.
+0:23
+First, element sizing.
+0:24
+This is how we can use Tailwind CSS to determine the width and height of our HTML elements.
+0:31
+Next, we'll explore Tailwind's color system and learn about the predefined color palette and how to apply it.
+0:38
+Then we'll look into padding and margin and learn how to adjust the spacing of our HTML elements with Tailwind's utility classes.
+0:47
+After that, we'll take a deep dive into typography so we can easily adjust the way our text content looks.
+0:54
+Then, we'll explore how Tailwind handles display and position properties with a special focus on CSS Flexbox.
+1:02
+Next, we'll see how to handle borders using Tailwind so we can easily style our HTML elements.
+1:09
+After that, we'll look at some extra Tailwind utilities that you likely use all the time with vanilla CSS.
+1:16
+We'll then round it all up and look at modifiers, which is how Tailwind handles pseudo classes and pseudo elements.
+1:24
+And finally, to make sure that our project is mobile and desktop friendly, we'll look into how to use Tailwind to make our designs responsive.
+1:34
+Along with these concepts, we'll be building a plant enthusiast's blog as a hands on project while we're learning.
+1:41
+This is a sneak peek as to what we'll create by the end of this course.
+1:46
+As you can see, it's a simple blog that plant lovers can contribute to.
+1:51
+We can see a header that is responsive, blog previews that display an image, author info, title, excerpt, like button, and like count.
+2:04
+And when in the desktop size, there are hover effects on the blog cards like a stronger shadow, image opacity changes, and a heart icon that lights up.
+2:16
+And of course, we'll make sure that it looks great on both mobile and desktop, with stacked previews on smaller screens and responsive wrapping on larger screens.
+2:27
+This may seem like a lot right now, but don't worry.
+2:30
+Everything you need to create this design with Tailwind CSS will be covered step by step in the upcoming course.
+2:38
+Finally, a quick heads up.
+2:40
+Since we'll be using the Tailwind CDN, you might notice a little warning message whenever we save our work, like this.
+2:49
+This just reminds us that the CDN isn't optimized for production.
+2:53
+It's perfectly fine for this course though, and the message will disappear in a few seconds as you saw.
+2:59
+So I'm excited to get started and I hope you are too.
+3:02
+And I'll see you in the next scrim.
