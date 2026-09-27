@@ -1,0 +1,38 @@
+
+Transcript
+0:00
+For this challenge, we'll be designing the four zero four page for Sunleaf Energy, a solar panel company dedicated to sustainability.
+0:09
+We're also going to create the header and footer, which will be reused across the rest of their website.
+0:15
+This challenge is great practice for crafting error pages while keeping brand consistency, something you'll likely do in your design and development career.
+0:24
+In the mobile mock ups on the left, we can see the header and main content section, and on the right, the footer.
+0:32
+The design uses a careful mix of greens and yellows to stay true to Sunleaf Energy's green focused brand identity.
+0:40
+The header features the company logo and a hamburger icon on the right.
+0:45
+Normally, this would open up a menu, but since we're just working with Tailwind CSS, we won't worry about that functionality.
+0:53
+The main section is simple but effective, with scented headings, a sun icon, and some text.
+0:59
+The footer contains a few key sections: social media icons, a newsletter sign up, quick links, the company info, and the copyright notice.
+1:10
+On mobile, everything is stacked vertically for easy reading and navigation.
+1:15
+In the desktop mockup, all the same features are present, but they've been adjusted for the wider screen.
+1:21
+The header now includes the full navigation menu, featuring a call to action button that stands out.
+1:28
+In the footer, the social media icons are displayed first, and the remaining sections are arranged side by side for better use of space.
+1:37
+The copyright notice remains at the bottom.
+1:40
+As for hover states, the call to action button in the navigation, all the footer links, the subscribe button, and the social media icons should all turn a slightly lighter yellow when hovered over, and the cursor should change to a pointer.
+1:56
+In the provided HTML, you'll find the structure for the header, main content, and footer already set up.
+2:03
+Your task is to style everything with Tailwind CSS and ensure that the layout looks great on both mobile and desktop.
+2:10
+Go ahead and give it a try, and I'll show you how I approached it in the next scrim.
