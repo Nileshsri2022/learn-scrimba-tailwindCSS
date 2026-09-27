@@ -1,0 +1,112 @@
+
+Transcript
+0:00
+Let's walk through one possible solution for our pricing table challenge.
+0:04
+As always, I started with the body, setting the background color and the flexbox properties.
+0:10
+Background black, flex flex col, items center.
+0:16
+Then I made all the text white centered and of the mono font family with text white text center and font mono we will have some other colors later but because most of the text is white I'm happy with setting that here Moving down to the header, I want everything stacked in a column.
+0:35
+So to me, that's a flex column combo.
+0:38
+Flex, flex goal, items, center.
+0:42
+I also want all my text in the header to be an off white, so I will add the properties here text neutral one hundred heading into the header we have the SVG the h2 and the p tag the SVG should be pretty easy it's our terminal lux logo so it should be white the h2 is relatively large so I gave it text to xl and for the paragraph I want it a little smaller than what it is now so I used text small now if we have a look at the header as a whole everything seems a little too close together and too close to the edge so let's give the header a percentage width value some margin at the top and space everything out with gap width margin top four and gap two.
+1:35
+Now let's move down to the main section.
+1:40
+I'm going to start off with my favorite flex combo flex and flex colt.
+1:45
+Now I'll style the children a little bit more and then come back to this main parent element to fine tune.
+1:51
+The first is this SVG and it's currently black and huge.
+1:55
+We want it to be small and white, fill white and h eight.
+2:01
+We then have this container that holds all three of our pricing cards.
+2:06
+We'll come back to this when the children are styled.
+2:09
+Inside of that, we have three pricing card elements which represents each tier of the pricing table.
+2:15
+We'll work on just one of them for now and then copy and paste everything later.
+2:19
+Let's give it the good old Flexbox column treatment with flex, flex col, and items center.
+2:25
+This section is what has the cyan border, so let's add that as well with border two and border cyan three hundred.
+2:33
+The first section child inside of this is the card header.
+2:38
+This is where we see the tier name as well as a circle that mimics the close button of a window.
+2:44
+We'll start with the easy styles, the cyan background and the large bold text.
+2:50
+Background cyan three hundred.
+2:52
+Text black.
+2:54
+Font bold.
+2:56
+Then I made this span the full width of the parent container so it mimics the top bar of a window with width full.
+3:03
+And then I gave it some padding with p2 to place this circle I made this section relative and then the SVG absolute
+3:15
+and then I positioned it with top two and left three there it is and now all that's left to do is color it with fill cyan six hundred the section after this one is for the content the price description and the button let's start with the price this is big bold and cyan so I use tex 7xl one bold tex cyan three hundred the paragraph looks good as it is so we'll leave it for now And finally, the button spans the full width of the parent, has a cyan border, bold uppercase text, and a ton of padding.
+3:53
+So I used width full, border two, border cyan three hundred, padding of four, uppercase, font bold, and text large.
+4:04
+And we can also see from the mock up that the bottom and the right border have a slightly thicker border to mimic that button.
+4:11
+So let's add those as well.
+4:14
+Border bottom four and bottom right four.
+4:18
+Now let's head back up to the card content section.
+4:21
+We need a bit of padding and some spacing, so of course I'll be using Flexbox.
+4:26
+Flex flex col and then adding my gap and padding with gap four and padding four.
+4:34
+There we go.
+4:35
+And now we've got one child styled, let's style the rest by copying and pasting.
+4:40
+And of course, I'll do this bit and I'll speed it up for you.
+4:54
+Now that we have all three children styled we can see that there's a desperate need for some gaps so let's add that to the section that's holding all three cards this card container flex flex col gap four
+5:10
+and I'm also going to pop back up to this main and add a set width
+5:16
+now I can also see that this svg is too close to what's above and below so we're going to give it some top and bottom margin of my ten and speaking of this SVG there is actually one all the way down here as well that looks exactly the same so let's copy the class list and paste it down here and there we go and it looks like we have our mobile view now for the desktop view we have all three pricing cards next to each other taking up equal widths
+5:50
+which does not happen right now so first I actually want to fix this SVG logo it keeps scaling with the page and eventually it will be way too big so I came back up here and I gave it a set height for screens that are larger than small Small, height, twenty eight.
+6:10
+And then I handled the three pricing cards.
+6:14
+Back in this section that holds all three of them, we just have to turn this column into a row for screens larger than large.
+6:22
+FlexRow.
+6:24
+Once we save and have a look, we can see that they are sitting next to each other, but they have different widths because of their difference in content.
+6:31
+To make them the same width, we just have to have each card take up a third of the parent width.
+6:38
+So after border cyan in each class list I added large width third
+6:45
+and finally to push each one of these buttons down to the bottom of the parent container it's as easy as giving the content section the grow class and then the buttons an auto top margin let's do that now card content card content and card content large grow and then find each button
+7:11
+button button and button large margin top auto
+7:19
+now all we have left to do is the hover state for each button each button gets a cyan background black text and a pointer cursor so we'll reselect each button class and add hover background cyan three hundred hover text black and cursor pointer let's have a look and we can see that it is in fact changing the buttons And there we have it.
+7:47
+Great job on wrapping up the pricing table challenge.
+7:51
+Remember, this is just one approach to solving it.
+7:54
+You might have come up with a different method and that's totally fine.
+7:57
+There are always multiple ways to tackle the same design problem.
+8:01
+So keep experimenting and refining your skills and I'll see you in the next scrim.
