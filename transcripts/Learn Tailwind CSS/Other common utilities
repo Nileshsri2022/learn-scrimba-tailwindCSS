@@ -1,0 +1,110 @@
+
+Transcript
+0:00
+Now that we've made great progress with our blog project, it's time to explore some other common utilities that Tailwind offers.
+0:08
+These classes might not fit neatly into any one category, but they can add those final touches that give your design that extra extra oomph and help your projects stand out from the rest.
+0:19
+First is box shadow.
+0:20
+Tailwind makes it easy to add shadow effects with the shadow dash value class.
+0:25
+In just one class with super simple syntax, we can tap into a range of different drop shadows already fine tuned by Tailwind.
+0:34
+You can see by these examples how much care and detail went into these vanilla CSS equivalents.
+0:40
+We can drop a default shadow using just shadow as a class, or we can use this syntax, shadow dash value, and add a value from small all the way to two x l.
+0:52
+Not all the offerings are shown here, so be sure to click through to the documentation for the full list.
+0:58
+Box shadows can be great for adding depths and emphasis to your elements, making them feel more interactive.
+1:05
+For example, we can add a nice drop shadow to this polaroid of my cat, Pickle, just like this.
+1:12
+In the main section, we'll just add shadow medium.
+1:16
+And it's already popping off the page and adding a nice layer of dimension.
+1:21
+Next is fill.
+1:22
+Being able to control an SVG's fill color using CSS is important, especially if you want it to be an interactive element.
+1:30
+Tailwind lets us do this with the fill class.
+1:33
+We simply have to use the fill prefix and then specify a color, either pure black or white, or using the color system that we learned about.
+1:41
+You also have the option to use none or transparent if you so desire.
+1:45
+Be sure to check out the docs if you want more information about either of these options.
+1:50
+Let's make this SVG heart pink to match the background and the scarf in the photo.
+1:55
+Over here in the SVG, we simply add a class list and add fill rows five hundred.
+2:03
+And we've successfully changed the fill color of an SVG.
+2:07
+Next up is opacity.
+2:09
+Opacity controls the transparency of your elements.
+2:12
+The syntax here is straightforward as well.
+2:15
+Opacity dash value, where the value represents how opaque you want the element to be out of one hundred.
+2:22
+These are only three of the many values that we can use here, so check out the documentation to see what you can use.
+2:28
+But in general, as long as it's a multiple of five, you will be able to use it.
+2:33
+Using opacity is perfect for hover effects, disabled states, or adding subtle transparency to backgrounds.
+2:39
+We'll talk about hover effects in the next scrim, but for now, we'll make this heart a bit more transparent.
+2:45
+Back in the class list for the SVG, let's add opacity fifty.
+2:50
+Save, and we can see that it's definitely a bit more transparent.
+2:55
+Next up is cursor.
+2:56
+Changing what the user's cursor looks like on your web page is an extra detail but can greatly improve the user's experience by making interactions clearer.
+3:05
+Tailwind makes this super easy by giving us the cursor dash value class.
+3:09
+We just have to plug in whatever CSS cursor type we want.
+3:13
+And there are a lot.
+3:15
+Here are four that I use all the time, but be sure to click through to the documentation to see the entire list.
+3:23
+In reality, we would want to change a cursor when a user hovers over something or some other interaction.
+3:29
+With vanilla CSS, you'd have to target the element's hover pseudo class and then set the cursor property.
+3:35
+With Tailwind, we just have to add the cursor class to an element that triggers the cursor change.
+3:40
+So for example, back in this SVG, let's just add cursor pointer.
+3:46
+Save.
+3:46
+And then you would have to hover over the SVG to see it change to this pointer icon.
+3:53
+Lastly, we strive to be as accessible as possible, so of course we'll mention the screen reader classes.
+3:59
+This is a super easy way for us to designate what is for screen readers and what is not.
+4:04
+As you can see, normally, with vanilla CSS, there are a lot of properties for us to handle in order to make an element behave and do exactly what we want.
+4:14
+Luckily, it's just a single class name for us Tailwind users.
+4:19
+S r only will hide an element visually, but keep it accessible to screen readers, and not s r only will do the exact opposite.
+4:26
+This span element containing the like text content is the perfect candidate.
+4:31
+Screen readers won't be able to see the heart, but they can certainly read the word like.
+4:36
+But users not on a screen reader won't need this word.
+4:39
+So let's give it a class of screen reader only and give it a safe.
+4:46
+Visually, it disappears, but it is still readable by screen readers.
+4:50
+Now we're gonna take Pickle with us to the next scrim to learn about modifiers.
