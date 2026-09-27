@@ -1,0 +1,98 @@
+
+Transcript
+0:00
+Now that we've explored the basics of Tailwind's font and text classes, it's time to dive into some of the more niche typography related utilities that can help us fine tune our text styling.
+0:12
+Letter spacing controls the space between individual characters in our text.
+0:17
+Tailwind makes it easy with the tracking dash value class and the six values for it.
+0:23
+As you can see in this table, each of these change the letter spacing CSS property to make the spacing between letters super tight or super wide.
+0:35
+Line height determines the vertical spacing between lines of text, And tailwind allows us to control this using the leading dash value classes.
+0:44
+We can input one of these six named values into the value, or we can also use the tailwind unit here as long as it's between three and ten.
+0:54
+So for example we can add leading dash height for a line height of one point two five or leading dash four if we want a line height of one rem.
+1:04
+Line clamp has to be one of my favorites.
+1:07
+Sometimes you only want to display a few lines of text, especially in blog or article previews.
+1:14
+While this is possible with vanilla CSS, it takes a few properties to get it working across all browsers, as we can see right here.
+1:22
+This is where Tailwind's line clamp dash value classes come in handy.
+1:27
+It allows you to limit the number of lines that will be shown, and the rest will be hidden with an ellipsis, with just one single class.
+1:35
+So for example, line dash clamp dash two will limit the text to two lines.
+1:41
+And if you want to show all lines of text, we can use line dash clamp dash none.
+1:48
+The last three scrims explore just some of the core typography classes that Tailwind offers, but there are plenty more out there.
+1:55
+If you're curious, you can explore the full range of text utilities by checking out the Tailwind documentation.
+2:02
+It's a great way to discover even more ways to style your text and make your projects truly unique.
+2:08
+So now let's bring everything we've learned about typography and try out a mini challenge.
+2:13
+Here we have the beginnings of a newspaper article preview.
+2:17
+We've got an article title, an article image, a journalist name, a date, an excerpt, and a read more link.
+2:25
+Just like before, it's up to you to style this using Tailwind CSS.
+2:29
+Here's an example of what it could look like once it's fully styled.
+2:33
+Let's use all the knowledge we have learned so far to try and replicate this mockup.
+2:38
+Once you've had a go, I'll show you what I would have done.
+2:42
+Welcome back.
+2:42
+How did you go?
+2:44
+This is what I did.
+2:45
+Before anything else, I changed the body background color to background gray four hundred so our newspaper element will stand out nicely.
+2:55
+Now I'll start on the newspaper itself.
+2:58
+First, I gave main a background color of gray one hundred and set the font for all of its children to font mono.
+3:07
+I made it a width of five over six, which is five over six, over the parent container, and then centered it using m x auto.
+3:15
+Finally, I gave it some padding of six and a margin of four, and that gives us the frame for our newspaper article preview.
+3:21
+We'll give that a save.
+3:23
+Then I handled the title of the article here in the h one.
+3:28
+I used font black for the weightiest font and then made it larger with text three x l.
+3:34
+Finally, I increased the letter spacing using tracking widest.
+3:39
+Moving down the page, all I did with the image was to increase its distance from everything else above and below using margin y four.
+3:49
+After that, I styled the date and author line, this p tag over here.
+3:54
+I gave the entire element text small to make the words a little smaller, and then I made the author name bold by adding font bold to the span element containing penny quick will.
+4:07
+Coming down to the excerpt itself, I did a few things.
+4:10
+First, I increased the line height by adding 'leading relaxed' and limited the view to four lines by using 'line clamp four'.
+4:18
+Then to separate it from the line above, I gave it some margin on top using 'margin top four'.
+4:24
+And finally, I styled the read more anchor tag by giving it an underlying class.
+4:31
+And there we go.
+4:32
+By applying these classes, we've transformed our article preview into something that's both stylish and easy to read.
+4:39
+Now it's time to take everything we've learned about typography and bring it back to our main project.
+4:44
+In the next scrim, we'll start tackling all the typography aspects of our blog listing, making sure each element is clear, engaging, and perfectly styled.
+4:54
+Let's dive back to our plant blog and start refining those text elements.
