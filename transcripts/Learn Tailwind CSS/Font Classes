@@ -1,0 +1,45 @@
+Transcript
+0:00
+Now that we've laid out the foundation of our project, it's time to level up by diving into typography, specifically Tailwind's font classes.
+0:09
+These classes make it easy to adjust the look and feel of our text content.
+0:14
+Tailwind CSS offers a variety of built in font stacks that you can apply using the font dash family class.
+0:21
+Here are the main options: font sans, font serif, and font mono.
+0:27
+Font sans is actually the default font family until you change it to another one.
+0:31
+These predefined font stacks are great for quickly giving your text the right personality without needing to set custom fonts.
+0:38
+I've put a link to the docs if you want to explore these font stacks further.
+0:42
+The font style classes are pretty straightforward.
+0:45
+They let you control whether the text is italic or non italic.
+0:50
+These are handy for quotes, emphasis or whatever you think needs that stylistic flair.
+0:55
+Finally, let's talk about font weight.
+0:57
+You can control the thickness of your text by inputting one of these nine options into the weight.
+1:04
+These classes give you flexibility in making your text stand out or blend in depending on your design.
+1:11
+Let's try out what we've learnt so far.
+1:13
+Here we have a stack of book spines.
+1:15
+I want to challenge you to use a combination of padding, color and font classes to create a unique stack of books.
+1:23
+I'll start with the first one all the way down here at the bottom I'll hide the preview for now in the class list I'm going to make it ninety six units wide give it a dark crimson background bright golden text three units of padding on the top and bottom five units of padding on the left and right a serif font family I'll make it italic and very very thick save and we'll check it out now it's your go really flex all the skills that you've learned so far to create a unique stack of books that make you look like a super interesting reader I'll show you my stack of books when you're done
+2:06
+I hope you had fun playing around with fonts, colors, and padding to create some interesting combinations.
+2:12
+Here is what I came up with, and I'll speed the section up for you.
+2:27
+You've successfully styled a quirky bookshelf of book spines using different fonts, colors and padding.
+2:34
+This exercise shows just how powerful these classes can be and how much personality they can add to even this simplest design.
+2:42
+In the next scrim we'll explore how to style your text even further applying alignment, decoration, and transformation.
