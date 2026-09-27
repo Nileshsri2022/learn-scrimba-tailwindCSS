@@ -1,0 +1,154 @@
+
+Transcript
+0:00
+Let's walk through one possible solution for the preferences form challenge.
+0:05
+As always, I start it with the body color and turning it into a big parent flexbox, with background amber one hundred, flex, flex col, and items center.
+0:17
+Then I moved down to the main section.
+0:19
+Since I can clearly see the children's bounding boxes this time, I worked on the layout here first and gave it a set width and top and bottom margins, with width eleven over twelve and margin y six.
+0:32
+Moving down, I handled the two headings.
+0:35
+The h one is dark, bold, large, and serif so I used text and bar nine hundred, font bold text six xl and font serif and the h2 is a lighter color smaller but still bold so text amber eight hundred font bold, text two xl.
+0:58
+Then I moved it away from the first heading and the form with a bit of top and bottom margin.
+1:03
+Margin y two.
+1:05
+Onto the form itself.
+1:07
+It has a white background with a bit of padding so we'll start with the easy stuff: a white background and a bit of padding.
+1:14
+The fieldset here comes with some default styling which is this border so we'll get rid of that by giving the class border zero to the fieldset.
+1:24
+Then I'll make this a flexbox column with a bit of gap.
+1:28
+Flex, flex col, gap five.
+1:32
+Coming down to the legend, it's a dark brown, bold, and large, so I added text amber seven hundred, font bold, and text xl.
+1:43
+Then to give it some space, I added margin bottom three.
+1:47
+Since we have two field sets and legends in this form, I'm going to copy the classes for the first set to the second set that's further down so we have a bit of consistency.
+1:57
+So I will do this by grabbing both of them and then replacing it and then changing this to details.
+2:05
+I can already see that this second field set needs a bit of top margin, so I'll add that now.
+2:12
+Ten.
+2:13
+Since we have so many repeating and similar elements, I'm going to tackle them concurrently.
+2:19
+First is the text content that tells us what a field is for.
+2:23
+So subscription tier, taste preference, and so on.
+2:26
+These are all bold.
+2:27
+So I'm going to go through and add them now.
+2:38
+Class, Font, Bold.
+2:41
+Next, I noticed that each label and field combo are stacked, so I'll handle that with my favorite method, a flex column.
+2:50
+I added this to every section that holds a label and field combo, like so.
+3:03
+Plus, flex, flex col.
+3:07
+Next, I noticed that the subscription tier, the dietary restrictions, name, email, delivery address, and payment method, they all have a light brown border, so I added classes to those elements.
+3:22
+Select the text area the input the input and the box and the box each get a border that is amber four hundred in color and then I gave them each some padding of two units and there we go and since we're handling the borders already let's round the corners of our delivery address and payment method boxes after the p2 we'll add rounded
+3:53
+large.
+3:53
+Next up has to be the Visa and Mastercard icons because they're just so big.
+3:58
+Instead of changing the height of each one, I'm going to handle its parent element which is this section.
+4:03
+I want to put the children side by side, so I'm going to make it a flexbox.
+4:10
+And since it's a flexbox, the children will take on whatever height I give the parent.
+4:14
+So I'm going to adjust the height here with h six and space them out a little bit with gap one.
+4:21
+While we're here let's use opacity to fade out the mastercard icon find the mastercard icon and give it an opacity twenty plus and then to put the two icons on the same line as our card number we'll come up to the containing section which is here make it a flexbox and then push the children apart with justify between and there it is And since we're down here, let's work on the change address and change payment method anchor tags.
+4:53
+These should be brown, small, underlined, and pushed away from the main content of either box.
+4:59
+So I found both anchor tags
+5:04
+and gave them text amber seven hundred, text small, margin top two, and underline.
+5:12
+Coming down to these two icons, let's position them in the correct places using relative, absolute and positioning classes.
+5:20
+The truck icon should sit on the same line as details but on the right edge.
+5:26
+I tackled this by first making the customer detail field set relative.
+5:32
+And then the truck icon, absolute.
+5:36
+Then I fine tuned the position with negative top twelve and right zero.
+5:41
+And then of course I colored it with fill amber seven hundred then we just have to do a similar thing with this teamug here it sits right at the top of the form element and also juts out a little bit as well so we'll find our form element up the top and make it relative and then back to our SVG we'll turn this into absolute and position it with negative top twelve and write zero and of course fill it with amber seven hundred and there it is the save button all the way at the bottom is next and this should be pretty straightforward
+6:22
+we've got a dark brown background with rounded corners with text that is bold and white and the button itself spans the full width of the container and has some generous padding And then we just have to give it some top margin to push it away from this payment method section.
+6:43
+And finally, all the way at the bottom, we have this tiny little T icon which should be brown and have a bit of margin below it.
+6:51
+All I did here was add, fill amber seven hundred, margin bottom six, and our mobile mockup is done.
+7:02
+Next up is the desktop layout, starting with the subscription fieldset.
+7:07
+We have the checkboxes and radio options on the right and the other two on the left.
+7:13
+To achieve this, I first added some responsive breakpoints to the subscription fieldset over here.
+7:19
+Medium, flex row and medium flex wrap
+7:25
+this will allow the children to flow from left to right and then wrap if needed then I assigned the subscription tier and dietary
+7:37
+subscription and dietary restrictions medium width half now this still looks a little funny because the radio buttons are the third flex child so let's push it to the end with
+7:52
+md order
+7:58
+four.
+7:58
+Coming down to the details, we'll do a similar thing.
+8:02
+The field set gets medium flex row and medium flex wrap.
+8:08
+We'll set the full name and delivery address to half.
+8:12
+So full name and delivery address, medium, width half.
+8:16
+And for email and payment we'll let it grow to fill out the remaining space email and payment
+8:26
+and there we've got it now that that's all done we just have to handle the focus and hover states
+8:34
+all text fields get a focus state of a very light yellow background so let's add that class to the dietary restrictions name and email
+8:46
+dietary restrictions
+8:49
+name and email focus background amber fifty
+8:56
+Then we have the hover state for the delivery address and the payment method boxes with the background turning the same light yellow.
+9:05
+We'll come down to delivery and payment hover background amber fifty let's make sure that these two anchor tags get a pointer cursor with
+9:20
+cursor point and one more thing our save button on hover should become a darker brown and also get the pointer cursor so hover background amber nine hundred and cursor pointer.
+9:38
+Let's check it out.
+9:39
+We've got our hover states and our focus states.
+9:42
+And that should finish off our page.
+9:44
+Well done on completing the preferences form challenge.
+9:47
+Just like before, this was just my solution and you might have approached it differently.
+9:52
+And that's perfectly okay.
+9:53
+Keep pushing your creativity and continue improving your tailwind skills and I'll see you in the next scrim.
