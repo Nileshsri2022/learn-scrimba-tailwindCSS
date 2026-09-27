@@ -1,0 +1,81 @@
+Transcript
+0:00
+We're back here for our plant blog project.
+0:03
+Now that we've learned a thing or two about typography related classes, we can shape up this project a little more.
+0:09
+Here are your tasks for this screen.
+0:12
+The header's alignment and font families, the blog header element, the card content, which includes the author, title, excerpt, horizontal line, and the like counter, and the footer content.
+0:25
+The goal is to match these mock ups as much as possible.
+0:29
+After all, we want to make sure our client is happy.
+0:31
+Give it a go now, and I'll show you how I'll go about it afterwards.
+0:36
+Welcome back.
+0:37
+I hope you had a good go and a good time using what you've learned to match the mock ups as much as possible.
+0:43
+Here is what I did.
+0:45
+For the header alignment and font families, up here in the header, I added text center.
+0:53
+And within this nav I gave it font bold, font mono, and padding at the top three units.
+1:02
+For the blog header in this h2, I gave it a bunch of classes: Text center, text two XL, font bold, margin on the top and bottom, six units, font mono, uppercase, tracking widest.
+1:20
+Coming down here to the card content, I started with the author which is the span element here.
+1:28
+I made the text small and gave it a slate five hundred color and then down here in the title
+1:38
+gave it font medium text large leading snug margin bottom two and text slate six hundred then for the x set itself which is this paragraph element give it line clamp three my favorite and text small the h r which is this horizontal line I did top and bottom margin of three units and for the like counter here
+2:09
+I gave it text small tax slate five hundred and italic
+2:15
+Now hopping all the way down here to the footer, this is what I did.
+2:19
+So first I text centered everything and then gave it a margin top of auto, which will push the footer to the bottom of the viewport.
+2:29
+For this subscribe header, I gave it a font bold, uppercase, font mono, and margin bottom of four units.
+2:40
+For the form element itself, I did margin top and bottom, four units.
+2:46
+For the email input, I did padding of two units, text slate of eight hundred, and padding on the left, four units.
+2:57
+Almost there.
+2:58
+For this submit button, I gave it these classes: background slate three hundred, text slate eight hundred, padding of two, and font medium.
+3:10
+And for the span, for the copyright at the bottom, text extra small and font mono.
+3:18
+Give that a save.
+3:19
+Let's have a look.
+3:21
+Alright.
+3:21
+There we go.
+3:22
+There's also an opportunity here to tidy up some of the spacing.
+3:26
+There should definitely be some space between the card and the footer, but they're touching at the moment.
+3:32
+Let's add some bottom margin to this section element that contains the card, which will eventually contain multiple cards.
+3:39
+So we'll come up here to card container, and I'm gonna add margin bottom of ten.
+3:45
+And there we go.
+3:47
+So great job.
+3:48
+By applying these typography classes, we've really brought our plant blog to life.
+3:53
+You've styled a lot of things, from the header to the card content and even the footer.
+3:59
+And the project is starting to look polished and professional.
+4:02
+Now that our text is looking sharp, it's time to move on to something even bigger.
+4:07
+In the next section, we'll dive into using Tailwind's display and position properties to organize our elements and create flexible layouts.
