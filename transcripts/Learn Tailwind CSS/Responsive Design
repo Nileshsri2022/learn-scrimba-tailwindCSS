@@ -1,0 +1,147 @@
+
+Transcript
+0:00
+Now that we've learned how to style and organize our elements, it's time to make sure they look great on all devices by diving into responsive design with Tailwind CSS.
+0:11
+Tailwind makes it incredibly easy to create layouts that adapt to different screen sizes using breakpoint prefixes.
+0:18
+Let's check them out.
+0:20
+These prefixes allow us to apply different utility classes based on the current screen width.
+0:26
+We simply have to supply the prefix, then a colon, and then whatever class you want to use.
+0:32
+This should look very familiar because breakpoints are just a type of modifier.
+0:38
+Here are the five breakpoints that Tailwind offers and what minimum widths it refers to in the vanilla CSS.
+0:45
+Some of these widths might look familiar.
+0:48
+I personally use seven sixty eight and ten twenty four quite a bit, so it's handy to know that Tailwind provides something right out of the box.
+0:56
+Let's play around with the breakpoint prefixes in this scrim.
+1:00
+I've got the start of a breakpoint visualizer that should change color depending on the size of the viewport.
+1:06
+It's already got a set of slate coloring applied to the body, main, and h one, slate five hundred, slate eight hundred, and slate three hundred.
+1:16
+Let's change the color scheme to rows when the screen size has a minimum width of sm, which is small.
+1:24
+So to the body, we'll add sm background rows five hundred.
+1:28
+To the main, we'll add sm, which again is the prefix, background rows eight hundred, and the text we get small text rows three hundred and we'll also increase the padding given to main using sm padding twelve.
+1:45
+Let's save it and check it out.
+1:47
+We'll drag the viewport out, and once we get to the minimum width of small, our color scheme changes to the rose coloring.
+1:54
+And we can also see that the padding of the container got a little bit larger.
+1:59
+Now the beauty of Tailwind's responsive system is that you can keep adding these prefixes and classes to apply different styles at different breakpoints.
+2:08
+For instance, we can change all of this to a blue color scheme by adding a set of medium breakpoints.
+2:15
+To the body, we'll add medium background blue five hundred, and for the main, we'll do medium background blue eight hundred, and then medium text blue three hundred and we'll also make the font size a little bit larger so medium text two x l.
+2:35
+Let's save this and then check it out.
+2:37
+When we get to that medium breakpoint we can see that it takes on that blue color scheme with larger text
+2:45
+And we can keep tacking on more and more breakpoints if we want to, which makes it incredibly simple to ensure that our designs look great no matter the screen size.
+2:54
+Let's do one more for fun.
+2:56
+We'll do a lime color scheme.
+2:59
+Large background
+3:01
+lime five hundred.
+3:04
+And here again, large background lime eight hundred.
+3:08
+And then for the text, large text lime three hundred and we'll also make the main section the same width as the viewport by adding large width screen.
+3:21
+Let's give this a save and when the screen gets large enough we get our lovely lime color scheme and the main container stretches the fill the width of the viewport.
+3:30
+So as you can see, with Tailwind's responsive utilities, you now have the power to adapt your designs effortlessly across all screen sizes.
+3:39
+No more juggling media queries.
+3:41
+Just add the right prefixes, and Tailwind will take care of the rest.
+3:46
+Now let's hop back to our project and apply our knowledge directly to our plant blog.
+3:51
+We'll make sure it looks great and works seamlessly on every device.
+Transcript
+0:00
+Now that we've learned how to style and organize our elements, it's time to make sure they look great on all devices by diving into responsive design with Tailwind CSS.
+0:11
+Tailwind makes it incredibly easy to create layouts that adapt to different screen sizes using breakpoint prefixes.
+0:18
+Let's check them out.
+0:20
+These prefixes allow us to apply different utility classes based on the current screen width.
+0:26
+We simply have to supply the prefix, then a colon, and then whatever class you want to use.
+0:32
+This should look very familiar because breakpoints are just a type of modifier.
+0:38
+Here are the five breakpoints that Tailwind offers and what minimum widths it refers to in the vanilla CSS.
+0:45
+Some of these widths might look familiar.
+0:48
+I personally use seven sixty eight and ten twenty four quite a bit, so it's handy to know that Tailwind provides something right out of the box.
+0:56
+Let's play around with the breakpoint prefixes in this scrim.
+1:00
+I've got the start of a breakpoint visualizer that should change color depending on the size of the viewport.
+1:06
+It's already got a set of slate coloring applied to the body, main, and h one, slate five hundred, slate eight hundred, and slate three hundred.
+1:16
+Let's change the color scheme to rows when the screen size has a minimum width of sm, which is small.
+1:24
+So to the body, we'll add sm background rows five hundred.
+1:28
+To the main, we'll add sm, which again is the prefix, background rows eight hundred, and the text we get small text rows three hundred and we'll also increase the padding given to main using sm padding twelve.
+1:45
+Let's save it and check it out.
+1:47
+We'll drag the viewport out, and once we get to the minimum width of small, our color scheme changes to the rose coloring.
+1:54
+And we can also see that the padding of the container got a little bit larger.
+1:59
+Now the beauty of Tailwind's responsive system is that you can keep adding these prefixes and classes to apply different styles at different breakpoints.
+2:08
+For instance, we can change all of this to a blue color scheme by adding a set of medium breakpoints.
+2:15
+To the body, we'll add medium background blue five hundred, and for the main, we'll do medium background blue eight hundred, and then medium text blue three hundred and we'll also make the font size a little bit larger so medium text two x l.
+2:35
+Let's save this and then check it out.
+2:37
+When we get to that medium breakpoint we can see that it takes on that blue color scheme with larger text
+2:45
+And we can keep tacking on more and more breakpoints if we want to, which makes it incredibly simple to ensure that our designs look great no matter the screen size.
+2:54
+Let's do one more for fun.
+2:56
+We'll do a lime color scheme.
+2:59
+Large background
+3:01
+lime five hundred.
+3:04
+And here again, large background lime eight hundred.
+3:08
+And then for the text, large text lime three hundred and we'll also make the main section the same width as the viewport by adding large width screen.
+3:21
+Let's give this a save and when the screen gets large enough we get our lovely lime color scheme and the main container stretches the fill the width of the viewport.
+3:30
+So as you can see, with Tailwind's responsive utilities, you now have the power to adapt your designs effortlessly across all screen sizes.
+3:39
+No more juggling media queries.
+3:41
+Just add the right prefixes, and Tailwind will take care of the rest.
+3:46
+Now let's hop back to our project and apply our knowledge directly to our plant blog.
+3:51
+We'll make sure it looks great and works seamlessly on every device.
