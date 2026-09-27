@@ -1,0 +1,76 @@
+
+Transcript
+0:00
+Let's dive into an essential part of layout design: padding and margin.
+0:05
+Tailwind CSS provides a simple way to control spacing within and around your elements using utility classes for padding and margin.
+0:14
+First, let's talk about padding.
+0:16
+Padding is the space inside an element between the content and the edge.
+0:20
+In tailwind, we'll use the 'p dash value' class to add padding, where the value is a tailwind unit.
+0:27
+For example, 'p dash four' will apply one rem of padding on all sides of the element.
+0:33
+And next, margin controls the space outside of an element between the element and its surrounding content.
+0:39
+And we'll use m dash value to apply margin.
+0:42
+So m four would add one rem of margin to all sides of the element.
+0:48
+But what if you wanted to apply margin or padding to only one side of an element?
+0:53
+Tailwind makes this super easy with specific classes for top, bottom, left, and right.
+0:59
+The syntax only changes a little, asking us to add a side directly after the p or m.
+1:06
+For example, to add two rem of padding to just the top, we would use p, t for top, and the value of eight, which gives us pt dash eight for the class.
+1:18
+With tailwind, you can also target opposite sides with these shorthand classes.
+1:24
+X would target the left and right sides, and y would target the top and bottom sides.
+1:30
+So for example, to add one rem of margin to the top and bottom of an element, it comes down to one single class, m y dash four.
+1:41
+This gives you incredible flexibility and ease in controlling the space around your elements with just a couple of classes.
+1:49
+Tailwind also offers the auto keyword as a value for margins.
+1:54
+The auto value, which you may be familiar with from vanilla CSS, is typically used for centering elements horizontally or vertically.
+2:03
+It's particularly helpful when you're working with block level elements like divs that you want to center on the page.
+2:11
+Let's put our new knowledge to the test with a quick challenge.
+2:15
+We'll be working with three section elements and styling them using just tailwind utility classes.
+2:22
+This will help reinforce how padding, margin, width, and height can work together to shape an element.
+2:29
+I've provided the instructions in the editor for each element.
+2:33
+You'll see details like background color, text color, margin, padding, width, and height that you'll need to apply using Tailwind classes.
+2:42
+Feel free to experiment with the different color shades.
+2:45
+As you can see, I haven't provided you with a specific color and shade.
+2:50
+So give it a go.
+2:52
+And here's what I did.
+2:54
+For the first section, I gave it a background of blue two hundred, text purple with a shade of eight hundred, uh, margin four, padding six, width of half and height of thirty two.
+3:06
+There we go.
+3:08
+And for the second section, I gave it a background of green eight hundred, text of green one hundred, margin on the top and bottom for six padding on the left and right eight width full and height forty and finally for the last one I did background yellow two hundred text amber six hundred margin left and right auto to center it, padding on top and bottom four, width of five over twelve, and a height of twenty four.
+3:41
+Give that a safe.
+3:42
+And by adding the classes, you've seen how padding and margin can create space around and inside of elements, and how width and height control the size of each section.
+3:53
+These utilities are incredibly powerful and allow us to quickly adjust layouts without writing any custom CSS.
+4:00
+And with that, you've got the basics.
+4:02
+In the next scrim, we'll start applying what we've learned so far to our project, the Plant Enthusiasts blog.
