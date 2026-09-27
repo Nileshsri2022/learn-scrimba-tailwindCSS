@@ -1,0 +1,70 @@
+
+Transcript
+0:00
+Before we dive into coding, let's talk about what Tailwind CSS even is.
+0:05
+Tailwind CSS is a utility first CSS framework that allows you to style your HTML elements directly in your markup.
+0:14
+Let's take a quick look at how Tailwind works in action.
+0:18
+Here we have a plain HTML document, and I'll show you how we can transform it using just a handful of Tailwind classes.
+0:27
+Now you probably won't know what I'm doing here, but don't worry.
+0:30
+It's just a demonstration of how quickly we can style HTML elements using Tailwind CSS.
+0:37
+You will learn all about it throughout the course.
+0:39
+So here we have a body element that has a single button child.
+0:44
+Now I'm going to add a few tailwind classes to style it up.
+0:48
+I will hide this for now so we can see all of our code.
+0:51
+First, I'm going to style the body so the button sits in the middle of the screen.
+0:56
+I'll give it a class list and the following classes, h screen, flex, items center, justify center.
+1:04
+And then I'll style the button itself with some classes as well.
+1:10
+B g red five hundred, text white p x four p y two, rounded full, font bold, text two x l, hover b g red seven hundred, and hover uppercase.
+1:26
+Now when we save this work and make the window bigger, we can see that the button is now appropriately styled and positioned in the middle of the screen.
+1:35
+And when you hover over the button, the background and text change, giving it a bit of interactivity.
+1:42
+All of this was done in just a few seconds with a handful of Tailwind classes and no custom CSS.
+1:50
+Now that you can see Tailwind in action, action, you can see how quickly we can style elements without ever creating a CSS file.
+1:57
+But what makes it so special?
+1:59
+First, the framework boasts a utility first approach.
+2:03
+Tailwind gives you small, reusable utility classes that you can apply directly in your elements.
+2:09
+No more switching between HTML and CSS files and wondering what class or ID you've given certain elements across your entire project.
+2:17
+Next, it's speed and efficiency.
+2:19
+With Tailwind, you can design faster by combining utility classes.
+2:24
+It eliminates the need to write custom CSS for every new component, making it incredibly efficient, especially for prototyping.
+2:32
+Finally, there is a consistent design system.
+2:35
+Tailwind ensures your design is always consistent by using predefined values for things like colors, spacing, and typography.
+2:42
+No more guessing or eyeballing sizes because everything matches perfectly across your project.
+2:49
+So who should use Tailwind?
+2:51
+Tailwind CSS is perfect for developers who want to build beautiful, responsive interfaces quickly.
+2:58
+Whether you're a beginner or an experienced developer, Tailwind helps you stay productive and maintain a clean, scalable codebase.
+3:06
+If that sounds like you, then you're in the right place.
+3:09
+In the next scrim, we'll start learning about all the different types of Tailwind utility classes that you can use.
+3:16
+Stick around as we dive into the basics and start building a real project with Tailwind CSS.
