@@ -1,0 +1,72 @@
+
+Transcript
+0:00
+Now that we've got a handle on font classes, it's time to dive into text classes, which give us even more control over how our text appears.
+0:09
+Text alignment determines how text is positioned within its container.
+0:13
+In Tailwind, we manipulate this using the 'text dash value' class.
+0:18
+For this value, Tailwind provides these six options.
+0:21
+These should all look pretty familiar because they all match up with the corresponding value you'd normally give the 'text dash align CSS' property.
+0:30
+Next up is font size.
+0:32
+Just a quick note here.
+0:33
+This may be a little confusing because of the interchanging use of the words 'font' and 'text'.
+0:39
+The tailwind name and CSS syntax is 'font size', but the Tailwind syntax is text dash value, and that's because it changes the text rather than the font itself.
+0:50
+For this value, Tailwind provides a range of sizes from extra small all the way to nine XL.
+0:57
+By supplying a font size class, you can quickly tailor your text to fit any design need.
+1:03
+These are of course not all the classes available, so click through to the docs if you want to check them all out.
+1:09
+The text decoration classes let you apply and remove underlines, overlines, and line through effects as well as remove them with the no underline class.
+1:19
+These all correspond to values you might give the text decoration line CSS property.
+1:26
+Finally, the text transform classes help you control the capitalization of your text.
+1:31
+Similar to before, these all match up with values you would give the text dash transform vanilla CSS property accessible right in the HTML.
+1:41
+Let's try our hand at everything so far.
+1:43
+Here we have a character card from a game.
+1:46
+This card features the name of the character, an image, some abilities of the character, and some flavor text.
+1:53
+I've already set up some of the layout of the page by centering the card and image and giving the card itself some margin at the top, but it's up to you to style the text and then fine tune the layout.
+2:04
+Here's a glimpse of what the card could look like once it's fully styled.
+2:08
+Ready to give it a try?
+2:10
+Use a combination of all the classes you've learned so far to bring this design to life, and I'll show you how I achieved it when you get back.
+2:19
+Welcome back.
+2:20
+I hope you had fun bringing your card design to life.
+2:23
+Let's walk through the styling together to see how mine turned out.
+2:27
+First, I made all the text center aligned by adding Text Center to the main element right after all of these classes.
+2:34
+Then I handled the character name.
+2:36
+Down here in the h one, I gave it the following classes.
+2:40
+Text rows, seven hundred, uppercase, Text three XL, and Font, Bold.
+2:46
+We'll have a quick look, and everything's looking pretty good so far.
+2:50
+Next, I worked on the two abilities at the same time by selecting both of these h3s in the editor.
+2:56
+For the ability name, I gave them both text rows six hundred, font medium, and text large.
+3:05
+And for the ability descriptions they both got text small then I styled the quote at the bottom with a text gray five hundred text extra small and italic to match the mock up now all that's left to do is space out the elements first I separated the character name from the image by adding margin bottom two to the h1 element and then I separated the abilities from the image by adding margin top to the section that holds the abilities then I separated the second ability from the first by adding margin top three to the section holding the second ability and lastly I separated the quote from everything else by adding a class to the footer margin top six and there we go remember there's no single way to style this so if your spacing or colors look a bit different that's perfectly fine but we're not done with typography just yet.
+4:04
+In the next scrim we'll dive into some extra typography related utilities to give you even greater control over your text.
