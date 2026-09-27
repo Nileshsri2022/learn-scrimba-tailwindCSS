@@ -1,0 +1,81 @@
+Transcript
+0:00
+Welcome back to the plant blog.
+0:02
+You have a lot under your belt now and can tackle the rest of the mobile mock up.
+0:06
+Here are your tasks for this scrim and the mock ups once again.
+0:10
+First, add shadow to the card.
+0:12
+Then you can probably remove the temporary background color.
+0:16
+Next, color the SVG heart, which is over here.
+0:20
+Then add some hover effects.
+0:22
+You can change the card's shadow, the image opacity, and the SVG heart's opacity and cursor.
+0:29
+And finally, add some focus and placeholder styling to the newsletter form.
+0:34
+There's a lot to do here, so give it a go, and I'll show you what I did when you're done.
+0:39
+See you in a bit.
+0:41
+Welcome back.
+0:42
+Here is what I did.
+0:43
+First, I added shadow to the card and removed the temporary background color.
+0:48
+So down here in the card section, I removed the background color, and I replaced it with shadow medium.
+0:56
+Next, I colored the SVG heart all the way down here in the SVG.
+1:02
+It doesn't have a class list, so let's open one.
+1:05
+I gave it fill red four hundred.
+1:08
+Let's quickly check it out.
+1:10
+Yep.
+1:10
+We've got a shadow and a hat that's red.
+1:13
+Now I added some hover effects.
+1:15
+So first, I worked with a shadow.
+1:18
+So back here with a shadow medium, I want to give it a bigger shadow when the card is hovered over, so I added hover shadow large.
+1:27
+And then for the image, I wanted to start slightly more transparent, and then when it's hovered over, we can see the full opaque image.
+1:35
+So up here I change the default opacity to eighty and then when hovered over we get opacity one hundred let's check that out very nice and finally back to the SVG heart down here I changed the default to two hundred instead of four hundred, and then when it's hovered over we get the full four hundred.
+1:58
+So fill red four hundred, and then I added a pointer cursor as well.
+2:03
+Cursor pointer And very nice.
+2:08
+And then finally, I added some focus and placeholder styling to the newsletter form.
+2:12
+So we'll come all the way down here to the form, and we'll select the input.
+2:18
+First, I made the placeholder italic.
+2:20
+Placeholder as the modifier, italic.
+2:23
+And then I pushed it away from the left edge by adding some padding.
+2:27
+Placeholder, padding left, two.
+2:31
+And then I gave it a different background when it is focused on.
+2:35
+Focus background slate one hundred.
+2:38
+Let's have a look and as you can see the placeholder is italic it's pushed away from the left edge and when we focus on the field it gets that very very light slate background color.
+2:51
+And we're getting very close to the end here.
+2:53
+In fact, our web page matches the mobile mock up already, minus four missing blog posts of course, but we'll get to those soon.
+3:01
+Next up, we'll look into responsive design to make sure that this project and all of our future projects are mobile and desktop friendly.
