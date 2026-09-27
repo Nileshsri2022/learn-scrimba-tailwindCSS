@@ -1,0 +1,61 @@
+Transcript
+0:00
+Modifiers allow us to change the appearance or behavior of pseudo classes and pseudo elements.
+0:06
+The general syntax for modifiers is pretty simple.
+0:09
+We have to specify a modifier, and then colon, and then whatever class we want to apply.
+0:15
+For this scrim, we'll have a look at two pseudo classes, hover and focus, as well as one pseudo element, placeholder.
+0:23
+The hover prefix lets you apply styles when a user hovers over an element.
+0:28
+For example, hover colon background dash blue dash five hundred will change the background color to blue when the user hovers over the element.
+0:38
+Here we've got the polaroid of my cat Pickle again.
+0:41
+But instead of just a heart icon, the user can add a comment instead.
+0:46
+I would like this button to change opacity when it's hoofed over as well as change the cursor to a pointer.
+0:52
+Well, we already know how to do the latter, so let's pop that in quickly over here we'll add cursor
+1:01
+pointer then to change the opacity on hover we'll start the class with the hover modifier and then the colon and then the opacity that we want which is the class opacity one hundred save and when we hover over this we get a pointer cursor and the button takes on that dark rose color Next up is the focus prefix, which lets you style elements when they're focused, such as when the user clicks on a form input.
+1:28
+For example, focus colon border blue five hundred will change the border color to blue when the input is focused.
+1:36
+Let's change the background color of this input field to a very light pink when it's in focus.
+1:42
+So over here at the end of this class list we'll add focus background rose fifty.
+1:49
+Save and when we click into this input field we can see that we have a light rose color to signify that the user has this field in focus and speaking of the field let's also talk about how we can style the placeholder text According to our syntax, we just have to use placeholder as a modifier and then the colon and then whatever class we want.
+2:13
+So right now it's a nice gray, but let's change it to a shade of rose to keep the color theme.
+2:19
+In the same class list we'll add placeholder
+2:24
+text rows four hundred.
+2:27
+Save and we can see a very not subtle placeholder that tells the user what to do.
+2:33
+Now the real power of tailwind modifiers come when you start combining them.
+2:38
+We can stack multiple modifiers together to create even more dynamic effects.
+2:43
+For example, if we want to change this placeholder text styling only when the field is in focus, we can chain them up.
+2:51
+Let's make this placeholder a darker rose when the field is in focus.
+2:56
+So let's head back to here and we'll enter focus placeholder text rows nine hundred.
+3:05
+Save.
+3:06
+And when we go back to type in the field, we can see that the background is darker but so is the placeholder text.
+3:13
+And of course, when we start typing, it all disappears.
+3:17
+So just like the other concepts we've learned, there are even more modifiers.
+3:21
+These are only a handful, so be sure to explore the Tailwind documentation in your own time.
+3:26
+After we put a few touches to our project, we'll come back and learn about a special type of modifier, responsive modifiers so now let's head back to our project and add some of these extra tidbits that we've just learned about
