@@ -1,0 +1,43 @@
+Transcript
+0:00
+Well done.
+0:01
+You've made it to the end of the course, and look what you've accomplished.
+0:05
+You've taken a plain HTML file and turned it into a fully designed, responsive blog using Tailwind CSS.
+0:14
+That's no small feat and you should be very proud of yourself.
+0:18
+Let's take one more look at the original mockups we started with and compare it to what you've got now.
+0:25
+As you can see, your hard work has really paid off.
+0:28
+Feel free to pause here and see if there are other bits of the design that you might want to fine tune.
+0:35
+Along the way, we covered a lot of ground.
+0:37
+We started by working with element sizing and tailwind's intuitive number system.
+0:42
+Then we dove into colors, padding, and margin, and we really built out the structure of our design.
+0:48
+We then moved on to typography, learnt how to manage display and position properties, and even dove into flexbox.
+0:55
+After that, we styled everything with borders, learnt about the power of modifiers, and finally, we made our designs responsive.
+1:02
+Now this course was just an introduction to Tailwind.
+1:05
+We've covered the essentials, but there's a whole world of utilities and features we haven't touched on yet.
+1:11
+That's where the Tailwind CSS documentation comes in.
+1:14
+The docs are packed with detailed explanations, examples, and even suggestions for best practices.
+1:20
+Whether you want to dive deeper into the features we've already covered or discover new utilities to make your designs more powerful, the documentation will be your go to resource.
+1:30
+Before we finish, though, I've got something special for you.
+1:34
+Coming up next, I've prepared five challenges that ramp up in difficulty to test and refine your Tailwind skills.
+1:41
+And don't forget, you can always refer back to the course if you need a refresher or check out the documentation for more guidance.
+1:47
+So good luck with the challenges, and keep building amazing things with Tailwind CSS.
