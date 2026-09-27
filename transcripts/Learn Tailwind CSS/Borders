@@ -1,0 +1,133 @@
+Transcript
+0:00
+Now that we've tackled Flexbox, it's time to learn how to work with borders using Tailwind.
+0:05
+Borders are a great way to define sections, add emphasis, or give your elements a bit of extra style.
+0:11
+Let's walk through the key border utilities.
+0:14
+In tailwind setting the border width is simple with the border dash value syntax.
+0:19
+For example border dash zero means no border and border dash eight gives you a border of eight pixels.
+0:26
+There's also just border, which sets it to a default one pixel width.
+0:30
+Next, let's discuss border color.
+0:32
+This uses the syntax border dash color dash shade, which you might remember from when we covered the color system in Talend.
+0:40
+For example, border dash blue dash five hundred will set a border with the blue color at shade five hundred.
+0:47
+You can also target specific sides of your element's border using border dash side dash value or border dash side dash color dash shade.
+0:57
+We simply have to specify the side using top bottom left right left and right or top and bottom and then feed in the width of the border or the color that we want.
+1:09
+Now let's look at border radius, which has the rounded dash value syntax.
+1:14
+Tailwind provides several options from none to full and everything in between.
+1:19
+This table shows some of the options, so be sure to click through to the documentation to see everything else.
+1:26
+Rounded dash none would give you no border radius, which is sharp corners, and rounded dash full will give the element fully rounded edges.
+1:35
+And if it was a square, it would turn into a circle.
+1:38
+If you want to control specific corners, Tailwind makes it easy with this syntax: rounded dash corner dash value.
+1:46
+We can target individual corners such as top left or bottom right, but we can also target sides with top, bottom, left, and right.
+1:55
+So for example, if we want both corners on the left to be rounded, which is top left and bottom left, we simply have to supply l for left.
+2:04
+So rounded dash l dash value.
+2:09
+Finally, let's touch on border style, which also uses the border dash value syntax.
+2:15
+The six options we have here are the exact same as you would get with vanilla CSS.
+2:20
+Simply pop the name of the style, like dashed, into the value here and your element will take on a dashed border.
+2:28
+Let me give you a quick demo.
+2:31
+Here we've got a picture of an orange.
+2:34
+Let's throw a bunch of border related classes at it.
+2:38
+Let's select the image and then add to the class.
+2:40
+Border eight for a thick border, border orange four hundred to give it an orange border, rounded full should make it circle, and border dashed, and save.
+2:53
+I spelled orange wrong.
+2:55
+Give it a save again, and we can see that it was super easy to add a dashed border to the image and also make it circular, all with border classes.
+3:04
+Borders are a fantastic way to make sections stand out, add emphasis, or simply polish off your designs.
+3:11
+Instead of a challenge this time, let's dive right back into our blog project and start applying these concepts.
+3:17
+Let's get back to work.Transcript
+0:00
+Now that we've tackled Flexbox, it's time to learn how to work with borders using Tailwind.
+0:05
+Borders are a great way to define sections, add emphasis, or give your elements a bit of extra style.
+0:11
+Let's walk through the key border utilities.
+0:14
+In tailwind setting the border width is simple with the border dash value syntax.
+0:19
+For example border dash zero means no border and border dash eight gives you a border of eight pixels.
+0:26
+There's also just border, which sets it to a default one pixel width.
+0:30
+Next, let's discuss border color.
+0:32
+This uses the syntax border dash color dash shade, which you might remember from when we covered the color system in Talend.
+0:40
+For example, border dash blue dash five hundred will set a border with the blue color at shade five hundred.
+0:47
+You can also target specific sides of your element's border using border dash side dash value or border dash side dash color dash shade.
+0:57
+We simply have to specify the side using top bottom left right left and right or top and bottom and then feed in the width of the border or the color that we want.
+1:09
+Now let's look at border radius, which has the rounded dash value syntax.
+1:14
+Tailwind provides several options from none to full and everything in between.
+1:19
+This table shows some of the options, so be sure to click through to the documentation to see everything else.
+1:26
+Rounded dash none would give you no border radius, which is sharp corners, and rounded dash full will give the element fully rounded edges.
+1:35
+And if it was a square, it would turn into a circle.
+1:38
+If you want to control specific corners, Tailwind makes it easy with this syntax: rounded dash corner dash value.
+1:46
+We can target individual corners such as top left or bottom right, but we can also target sides with top, bottom, left, and right.
+1:55
+So for example, if we want both corners on the left to be rounded, which is top left and bottom left, we simply have to supply l for left.
+2:04
+So rounded dash l dash value.
+2:09
+Finally, let's touch on border style, which also uses the border dash value syntax.
+2:15
+The six options we have here are the exact same as you would get with vanilla CSS.
+2:20
+Simply pop the name of the style, like dashed, into the value here and your element will take on a dashed border.
+2:28
+Let me give you a quick demo.
+2:31
+Here we've got a picture of an orange.
+2:34
+Let's throw a bunch of border related classes at it.
+2:38
+Let's select the image and then add to the class.
+2:40
+Border eight for a thick border, border orange four hundred to give it an orange border, rounded full should make it circle, and border dashed, and save.
+2:53
+I spelled orange wrong.
+2:55
+Give it a save again, and we can see that it was super easy to add a dashed border to the image and also make it circular, all with border classes.
+3:04
+Borders are a fantastic way to make sections stand out, add emphasis, or simply polish off your designs.
+3:11
+Instead of a challenge this time, let's dive right back into our blog project and start applying these concepts.
+3:17
+Let's get back to work.
