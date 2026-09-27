@@ -1,0 +1,128 @@
+
+Transcript
+0:00
+Let's walk through one possible solution for our testimonials section challenge.
+0:05
+I'm going to start with our largest container, the body.
+0:09
+The background color is pink, so we'll pop that in right away with background rows one hundred.
+0:15
+Then I want to use flexbox to layout my content, so I added flex, flex col, items center to center all of its direct children vertically.
+0:26
+I'm going to skip the header for now until we can see more of what its children will look like styled, so I head it down to the h2.
+0:34
+I know that the header is a dark pink, large, centered and bold, so I start it with text rows seven hundred, font bold, text center, and text four XL.
+0:47
+The spans within are a darker pink, more spaced out, and italic so I selected both of them and added some classes.
+0:56
+Text rows nine hundred, italic, and tracking wide.
+1:02
+Moving down to this SVG, I want this to be a dark pink and a little further away from the header.
+1:09
+So for the classes, I did fill rows seven hundred and margin top four.
+1:15
+Now that the header content is more settled, I'll hop back into the header itself and style it accordingly.
+1:21
+I want the children to be in a column and centered, so for classes I added flex, flex col, and items center.
+1:29
+And then I gave it some top and bottom margin with my six.
+1:33
+And that should do it for our header.
+1:36
+Coming down to our main section, which contains all the testimonial cards, I started with making it a flexbox with center aligned and wrapping children.
+1:45
+Flex, flex wrap, and justify center.
+1:49
+It doesn't look any different at the moment, so I went down to style the first card.
+1:55
+First, the colors.
+1:56
+The background is white with a border, and the border's color is rows two hundred.
+2:02
+And then I added p four for padding, and then made it a flexbox column so everything is stacked and vertically centered.
+2:09
+Flex, flex col, items center.
+2:12
+And then I spaced everything out with gap four.
+2:15
+According to the mockup, the top right and bottom left are both rounded.
+2:19
+So I also added rounded top right to xl and rounded bottom left to xl and we've got our rounded corners.
+2:29
+Jumping back to the card container up here, I added a width of eleven over twelve to give the card some room away from the edge, and I also spaced out each card using gap six.
+2:40
+Moving into the card, I started with the image.
+2:44
+Just like the container, the top right and the bottom left have rounded corners, so we'll add the same two classes.
+2:51
+Open the class list.
+2:53
+Rounded, top right, 2xl, and Rounded, bottom left, 2xl.
+2:58
+Next up is the cats or cat name.
+3:01
+These are a darkish rows, bold and slightly large.
+3:06
+So I used text, rows seven hundred, font bold and text to XL.
+3:13
+The paragraph here is easy to handle.
+3:15
+We just have to make the text center aligned with text center.
+3:20
+Text center.
+3:22
+And finally, the cat parent's name needs to be a lighter rose.
+3:28
+So text rows six hundred.
+3:32
+That looks pretty good.
+3:33
+And now it's just a matter of copying no styles to the two remaining cards.
+3:38
+I'll do this now, but I'll speed it up for you.
+3:50
+And we are all done.
+3:52
+And all the way down here, we just need to color and pad out this pawprint at the end.
+3:57
+I'll add some margin to the footer by adding 'my10'.
+4:03
+And then I'll come down here to the SVG and fill it with a rose seven hundred.
+4:09
+And there we have it.
+4:11
+And that does it for mobile.
+4:12
+Now onto desktop.
+4:14
+We can see from the mockup that we want our three cards to be in a row and right next to each other.
+4:20
+Since our card container is already a flex row and has wrapping children, we just have to supply a fixed value for each of our cards for larger screens.
+4:29
+So we'll come up to each card and add
+4:34
+for small screens or wider we'll give it a fixed width of eighty units and if we check it out now that's already done the job next we have to make sure that our three images match the opacity of the mock up For this, I found the end of each classlist of each image.
+4:55
+Opacity, fifty.
+4:58
+Now it matches our mockup a lot better.
+5:01
+And on to the states.
+5:03
+On hover, our images should become fully opaque and on hover, our cards should drop a shadow.
+5:09
+So let's work on those now.
+5:11
+We'll reselect the end of the classlist of each image and add on hover, the opacity should be one hundred.
+5:19
+And then for each card section after the fixed width we'll do on hover the shadow and large let's check it out on hover the images become fully opaque and on hover, the cards get a nice large shadow.
+5:36
+And there we go, the desktop view and the mobile both match the mockups.
+5:42
+Congratulations on completing the testimonial section challenge.
+5:46
+Just like before, this is just my solution, and there are plenty of ways to achieve the same result.
+5:51
+Feel free to tweak the design, try new things, and make it your own.
+5:55
+And of course, keep up the great work.
