@@ -1,0 +1,66 @@
+
+Transcript
+0:00
+Now that we've covered element sizing, let's bring some life into our designs by exploring one of the most important aspects of styling, which is color.
+0:09
+Tailwind comes with a wide range of predefined colors to choose from, like red, blue, and green, to more obscure colors like rose and teal.
+0:19
+You won't have to find and remember random hex codes anymore.
+0:23
+Instead, Tailwind gives you a consistent set of colors that are both beautiful and accessible right out of the box.
+0:29
+But it gets better.
+0:31
+As you can see here, each predefined color in Tailwind comes with a shade scale ranging from fifty to nine hundred and fifty.
+0:40
+The lower numbers, like fifty, are lighter shades, while higher numbers, like this nine hundred, give us darker, bolder shades.
+0:48
+This makes it super easy to add depth and variation to our designs.
+0:53
+But these are just three out of the many colors offered by Tailwind, so be sure to check out the full list of colors in the documentation via the link in the slide.
+1:03
+Let's take a look at the syntax you'll use to apply these colors.
+1:07
+To change the background color of an element, we'll use b g for background, dash color, dash shade.
+1:13
+For example, if we want to make an element's background a light cyan like one of these we can give the element a class of background cyan two hundred And if we want, let's say, a dark teal, maybe this one, we can go with background dash teal dash nine hundred.
+1:35
+And text colors work similarly.
+1:37
+We just have to swap out the background for text.
+1:41
+So if we want a dark orange text, we might use text dash orange dash six hundred.
+1:47
+And unlike other colors, black and white don't come in shades in Tailwind.
+1:52
+You simply have to use text black or background white.
+1:57
+Tailwind colors are designed with accessibility in mind.
+2:01
+They're optimized to ensure good contrast, which helps make your designs more readable and user friendly, especially for users with visual impairments.
+2:11
+But still, we want to make sure that we aren't using, let's say, this red one hundred text on a red two hundred background, for example.
+2:19
+To help us with that, there are some great tools out there.
+2:23
+These will help us check the contrast between text and background.
+2:26
+You can simply plug in the color values for a foreground and background, and it will tell you whether or not that color combo passes the web content accessibility guidelines or the WCAG.
+2:40
+Let's try this out.
+2:41
+This scrim here is in desperate need of some styling.
+2:45
+Just like before, I've done a bit of external styling using a CSS file so we can just focus on testing out our color skills.
+2:53
+I'll minimize this so we can see our code, and here are your four challenges.
+2:58
+Give the body a background color, give main a background color, give this heading one a text color, and give the paragraph a text color as well.
+3:07
+I've given you the colors here so have at it and here's what I did for the body I gave it a background color of amber six hundred for the main, a background color of yellow one hundred, the h one, a text color of red seven hundred, and the paragraph, a text color of orange seven hundred.
+3:37
+Give this a save and let's make this a bit bigger and now it really looks like pizza and fits the part.
+3:43
+Now you know how to use Tailwind's predefined color system to easily add colors to your design just remember to keep contrast in mind for readability and accessibility.
+3:54
+In the next scrim, we'll cover padding and margin, which are essential for spacing and layout.
