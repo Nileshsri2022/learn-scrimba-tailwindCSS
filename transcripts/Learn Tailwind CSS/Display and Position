@@ -1,0 +1,84 @@
+
+Transcript
+0:00
+In this scrim, we're going to dive into two essential styling concepts, display and position.
+0:06
+If you've worked with vanilla CSS before, you'll know that these two work hand in hand when it comes to building a layout.
+0:13
+So of course, Tailwind has its own set of utilities to make these concepts even easier.
+0:19
+We'll begin with display.
+0:21
+Tailwind offers several classes to control an element's display property, and you're probably already familiar with these terms.
+0:28
+They're the same values that you'd use with the display property in vanilla CSS.
+0:34
+Now you can apply them directly in your HTML for quicker styling.
+0:38
+Here we've got four of the many options that we can use to set an element's display property.
+0:44
+Block, inline, inline block, hidden, and so on.
+0:48
+All we have to do is use those exact keywords as the tailwind class.
+0:53
+As you know, there are a ton more display classes that you can explore.
+0:56
+In fact, there is a Tailwind class for each display property out there, so be sure to check out the Tailwind CSS documentation for the full list.
+1:06
+Next is position.
+1:07
+If you're already familiar with the five css position values we can already see how easy it is to apply using tailwind classes we just need to supply the value we would normally give to the position property as a class directly into the html element Then, if applicable, you can use the handy placement class of direction dash value to place elements based on their position value.
+1:33
+The direction is your choice of top, right, bottom, or left, and the value can be a tailwind unit, a relative unit, or auto.
+1:43
+For example, top dash two would equate to top zero point five rem in vanilla CSS.
+1:51
+And And another example, right dash three over four would equate to right seventy five percent in vanilla CSS.
+2:01
+There are a lot of classes that Tailwind offers for placement after positioning, so be sure to check it all out by clicking through to the documentation.
+2:11
+In this scrim, we've got two shelves that we want to place some potion bottles on.
+2:16
+I've already created the shelves using Tailwind CSS, which you're welcome to have a look at.
+2:21
+But your job is to place these bottles on each shelf accordingly.
+2:26
+Each section shelf has three image children, which are the three potion bottles.
+2:32
+Your job is to make sure each shelf has the correct position class and then place the bottles on each shelf nicely using placement classes.
+2:40
+Here's an example of what it might look like when finished.
+2:44
+Be sure to really explore the different types of values that you can use here.
+2:48
+Give it a go now.
+2:51
+This is what I did.
+2:53
+First, I made both shelves relative by simply adding the relative class to the existing list.
+3:01
+Then I made each image absolute.
+3:03
+And here I will select all the images and add a class of absolute.
+3:10
+Then to make sure they all stick to the bottom of their shelves, I added bottom dash one to each one.
+3:16
+Give that a save.
+3:17
+And then I had a little fun placing each bottle on the shelf with some unique values.
+3:23
+For our first bottle, I did left five.
+3:26
+Second bottle, left one third.
+3:29
+Third bottle, right five.
+3:31
+And then on the second shelf, I did left nine for the first one, right ten for the second one, and then left forty for the last one.
+3:40
+Let's give this a save and check it out.
+3:43
+And that's how Tailwind makes applying display and position properties quick and simple.
+3:48
+These utility classes give you full control over how elements appear on your page without the need to write extra CSS.
+3:56
+Next up, we'll dive deep into one specific display property, my favorite, Flexbox.
